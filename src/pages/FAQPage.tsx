@@ -120,7 +120,7 @@ export const FAQPage = () => {
             {faqs.map((category, categoryIndex) => (
               <div key={categoryIndex} className="mb-12">
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 flex items-center">
-                  <span className="bg-primary text-primary w-10 h-10 rounded-lg flex items-center justify-center mr-4 text-xl font-bold">
+                  <span className="bg-primary text-white w-10 h-10 rounded-lg flex items-center justify-center mr-4 text-xl font-bold">
                     {categoryIndex + 1}
                   </span>
                   {category.category}

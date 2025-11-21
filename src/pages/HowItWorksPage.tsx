@@ -11,7 +11,7 @@ export const HowItWorksPage = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">
               How It <span className="text-primary">Works</span>
             </h1>
-            <p className="text-lg text-primary">
+            <p className="text-lg text-gray-600">
               Finding your perfect match is just a few simple steps away. Here's how Shubh Milan works.
             </p>
           </div>
@@ -29,13 +29,13 @@ export const HowItWorksPage = () => {
                   <div className="bg-primary text-white w-14 h-14 rounded-full flex items-center justify-center text-xl font-bold mr-4 shadow-lg">
                     1
                   </div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-primary">Download & Sign Up</h2>
+                  <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Download & Sign Up</h2>
                 </div>
-                <p className="text-primary mb-4">
+                <p className="text-gray-600 mb-4">
                   Download the Shubh Milan app from Google Play Store or Apple App Store. Create your account 
                   with your email or phone number and verify your identity.
                 </p>
-                <ul className="space-y-2 text-primary">
+                <ul className="space-y-2 text-gray-600">
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -79,13 +79,13 @@ export const HowItWorksPage = () => {
                   <div className="bg-primary text-white w-14 h-14 rounded-full flex items-center justify-center text-xl font-bold mr-4 shadow-lg">
                     2
                   </div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-primary">Create Your Profile</h2>
+                  <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Create Your Profile</h2>
                 </div>
-                <p className="text-primary mb-4">
+                <p className="text-gray-600 mb-4">
                   Build a comprehensive profile that showcases who you are. Add your photos, education, 
                   profession, interests, and preferences to help find the perfect match.
                 </p>
-                <ul className="space-y-2 text-primary">
+                <ul className="space-y-2 text-gray-600">
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -115,13 +115,13 @@ export const HowItWorksPage = () => {
                   <div className="bg-primary text-white w-14 h-14 rounded-full flex items-center justify-center text-xl font-bold mr-4 shadow-lg">
                     3
                   </div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-primary">Find Matches</h2>
+                  <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Find Matches</h2>
                 </div>
-                <p className="text-primary mb-4">
+                <p className="text-gray-600 mb-4">
                   Our smart algorithm suggests compatible profiles based on your preferences, interests, and values. 
                   Browse through matches and find someone special.
                 </p>
-                <ul className="space-y-2 text-primary">
+                <ul className="space-y-2 text-gray-600">
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -165,13 +165,13 @@ export const HowItWorksPage = () => {
                   <div className="bg-primary text-white w-14 h-14 rounded-full flex items-center justify-center text-xl font-bold mr-4 shadow-lg">
                     4
                   </div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-primary">Connect & Chat</h2>
+                  <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Connect & Chat</h2>
                 </div>
-                <p className="text-primary mb-4">
+                <p className="text-gray-600 mb-4">
                   Found someone interesting? Send them a message or interest. Start a conversation through our 
                   secure chat platform or schedule a video call.
                 </p>
-                <ul className="space-y-2 text-primary">
+                <ul className="space-y-2 text-gray-600">
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -202,7 +202,7 @@ export const HowItWorksPage = () => {
         <Container>
           <div className="max-w-3xl mx-auto text-center text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Get Started?</h2>
-            <p className="text-xl text-primary mb-8">
+            <p className="text-xl text-white mb-8">
               Download the Shubh Milan app today and begin your journey to finding your perfect match.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
