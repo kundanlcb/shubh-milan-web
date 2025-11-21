@@ -19,7 +19,7 @@ export const HowItWorksPage = () => {
       </section>
 
       {/* Steps Section */}
-      <section className="py-16 md:py-24 bg-background">
+      <section className="py-16 md:py-24 bg-[#FFF0F5]">
         <Container>
           <div className="max-w-5xl mx-auto">
             {/* Step 1 */}
