@@ -8,13 +8,13 @@ export const DownloadPage = () => {
       <section className="bg-gradient-to-br from-primary-50 via-white to-primary-100 py-16 md:py-24">
         <Container>
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-text-primary mb-6">
               Download <span className="text-primary-600">Shubh Milan</span>
             </h1>
-            <p className="text-xl font-hindi text-primary-700 mb-6">
+            <p className="text-xl font-hindi text-primary-600 mb-6">
               अपना जीवनसाथी खोजें
             </p>
-            <p className="text-lg text-gray-600 mb-12">
+            <p className="text-lg text-text-secondary mb-12">
               Get the Shubh Milan app on your mobile device and start your journey to finding your perfect match today.
             </p>
 
@@ -64,12 +64,12 @@ export const DownloadPage = () => {
       </section>
 
       {/* Features Preview */}
-      <section className="py-16 md:py-20 bg-white">
+      <section className="py-16 md:py-20 bg-background">
         <Container>
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-primary-700 mb-4">
             What You'll Get
           </h2>
-          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+          <p className="text-center text-text-secondary mb-12 max-w-2xl mx-auto">
             The Shubh Milan app comes packed with features to make your matchmaking journey smooth and enjoyable
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -149,10 +149,10 @@ export const DownloadPage = () => {
       </section>
 
       {/* System Requirements */}
-      <section className="py-16 md:py-20 bg-gray-50">
+      <section className="py-16 md:py-20 bg-gradient-to-br from-primary-50 via-white to-primary-50">
         <Container>
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-center text-primary-700 mb-12">
               System Requirements
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
@@ -231,7 +231,7 @@ export const DownloadPage = () => {
       </section>
 
       {/* Final CTA */}
-      <section className="py-16 md:py-20 bg-gradient-to-br from-primary-600 to-primary-700">
+      <section className="py-16 md:py-20 bg-gradient-to-br from-primary-500 via-primary-600 to-primary-700">
         <Container>
           <div className="max-w-3xl mx-auto text-center text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Start Your Journey Today</h2>
