@@ -15,53 +15,23 @@ export default {
         '2xl': '1536px',
       },
       colors: {
-        // Primary colors - Beautiful magenta from Mithila theme
+        // Primary color - Magenta only
         primary: {
           DEFAULT: '#E91E63',
-          light: '#F48FB1',
-          dark: '#AD1457',
-          50: '#FCE4EC',
-          100: '#F8BBD0',
-          200: '#F48FB1',
-          300: '#F06292',
-          400: '#EC407A',
-          500: '#E91E63',
-          600: '#D81B60',
-          700: '#C2185B',
-          800: '#AD1457',
-          900: '#880E4F',
         },
-        // Secondary colors - Golden orange
-        secondary: {
-          DEFAULT: '#FF9800',
-          light: '#FFCC02',
-          dark: '#C66900',
-        },
-        // Accent colors - Green
-        accent: {
-          DEFAULT: '#4CAF50',
-          light: '#80E27E',
-          dark: '#087F23',
-        },
-        // Background colors
+        // White background
         background: {
-          DEFAULT: '#FAFAFA',
-          secondary: '#F5F5F5',
-          card: '#FFFFFF',
+          DEFAULT: '#FFFFFF',
         },
         // Text colors
         text: {
-          primary: '#212121',
-          secondary: '#757575',
-          tertiary: '#9E9E9E',
+          primary: '#E91E63',
           inverse: '#FFFFFF',
         },
-        // UI colors
+        // Border colors
         border: {
-          DEFAULT: '#E0E0E0',
-          light: '#F0F0F0',
+          DEFAULT: '#E91E63',
         },
-        divider: '#EEEEEE',
       },
       fontFamily: {
         sans: [
