@@ -6,7 +6,7 @@ export const HomePage = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-white py-16 md:py-24">
+      <section className="bg-[#FFF0F5] py-16 md:py-24">
         <Container>
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
@@ -156,24 +156,24 @@ export const HomePage = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 md:py-20 bg-primary">
+      <section className="py-16 md:py-20 bg-[#FFF0F5]">
         <Container>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="transform hover:scale-105 transition-transform">
-              <div className="text-4xl md:text-5xl font-bold mb-2">10K+</div>
-              <div className="text-white text-lg">Active Users</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2 text-primary">10K+</div>
+              <div className="text-black text-lg">Active Users</div>
             </div>
             <div className="transform hover:scale-105 transition-transform">
-              <div className="text-4xl md:text-5xl font-bold mb-2">5K+</div>
-              <div className="text-white text-lg">Success Stories</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2 text-primary">5K+</div>
+              <div className="text-black text-lg">Success Stories</div>
             </div>
             <div className="transform hover:scale-105 transition-transform">
-              <div className="text-4xl md:text-5xl font-bold mb-2">50+</div>
-              <div className="text-white text-lg">Cities</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2 text-primary">50+</div>
+              <div className="text-black text-lg">Cities</div>
             </div>
             <div className="transform hover:scale-105 transition-transform">
-              <div className="text-4xl md:text-5xl font-bold mb-2">98%</div>
-              <div className="text-white text-lg">Satisfaction</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2 text-primary">98%</div>
+              <div className="text-black text-lg">Satisfaction</div>
             </div>
           </div>
         </Container>
