@@ -6,7 +6,7 @@ export const HomePage = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-white py-16 md:py-24">
+      <section className="bg-[lavenderblush] py-16 md:py-24">
         <Container>
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
@@ -65,7 +65,7 @@ export const HomePage = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 md:py-24 bg-[lavenderblush] border-t border-primary">
+      <section className="py-16 md:py-24 bg-white border-t border-primary">
         <Container>
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
             Why Choose Shubh Milan?
