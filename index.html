@@ -17,6 +17,19 @@
     <meta name="twitter:title" content="Shubh Milan - Connect Hearts, Build Relationships" />
     <meta name="twitter:description" content="Find your perfect match on Shubh Milan, a trusted platform for meaningful connections." />
     
+    <!-- GitHub Pages SPA redirect handler -->
+    <script>
+      (function() {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        // Validate redirect is a valid path within our app before using it
+        if (redirect && typeof redirect === 'string' && redirect.startsWith('/shubh-milan-web/')) {
+          // Only use paths, not full URLs, for security
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+    
     <title>Shubh Milan - Connect Hearts, Build Relationships</title>
   </head>
   <body>

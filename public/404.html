@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script>
+    // GitHub Pages SPA redirect
+    // Store the path only (not full URL) for security
+    var path = location.pathname + location.search + location.hash;
+    // Only store if it's a valid path within our app
+    if (path.startsWith('/shubh-milan-web/')) {
+      sessionStorage.redirect = path;
+    }
+  </script>
+  <meta http-equiv="refresh" content="0;URL='/shubh-milan-web/'">
+</head>
+<body>
+</body>
+</html>

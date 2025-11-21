@@ -2,6 +2,37 @@
 
 A beautiful, fully responsive informational website for Shubh Milan matrimonial platform. Built with React, TypeScript, and Vite, this static website represents the Shubh Milan brand and provides download links to our Android and iOS mobile applications.
 
+**🌐 Live Demo**: [https://kundanlcb.github.io/shubh-milan-web/](https://kundanlcb.github.io/shubh-milan-web/)
+
+## 🚀 Quick Start - GitHub Pages Deployment
+
+This website is configured for automatic deployment to GitHub Pages. Follow these steps to enable it:
+
+### 1. Enable GitHub Pages in Repository Settings
+1. Go to your repository on GitHub: `https://github.com/kundanlcb/shubh-milan-web`
+2. Click on **Settings** tab
+3. In the left sidebar, click **Pages**
+4. Under **Source**, select **GitHub Actions**
+5. Save the settings
+
+### 2. Push to Main Branch
+Once GitHub Pages is configured, any push to the `main` branch will automatically trigger deployment.
+
+```bash
+git push origin main
+```
+
+The workflow will:
+- Install dependencies
+- Build the production bundle
+- Deploy to GitHub Pages
+- Make the site available at: `https://kundanlcb.github.io/shubh-milan-web/`
+
+### 3. Monitor Deployment
+- Go to the **Actions** tab in your repository
+- Watch the "Deploy to GitHub Pages" workflow
+- Once complete (green checkmark), your site is live!
+
 ## 🎯 Purpose
 
 This is an **information-only website** designed to:
@@ -174,9 +205,27 @@ accent: {
 
 ## 🌐 Deployment
 
-This is a static website that can be deployed to any hosting service:
+This website is configured for automatic deployment to GitHub Pages.
 
-### Vercel (Recommended)
+### GitHub Pages (Automated - Recommended)
+
+The website is automatically deployed to GitHub Pages when changes are pushed to the `main` branch.
+
+**Live URL**: `https://kundanlcb.github.io/shubh-milan-web/`
+
+**Setup Instructions**:
+1. Ensure GitHub Pages is enabled in your repository settings
+2. Go to Settings → Pages
+3. Set Source to "GitHub Actions"
+4. Push to the `main` branch to trigger automatic deployment
+
+**Manual Deployment**:
+```bash
+npm run build
+# The workflow will automatically deploy when pushed to main
+```
+
+### Vercel
 ```bash
 npm install -g vercel
 vercel
@@ -186,12 +235,6 @@ vercel
 ```bash
 npm run build
 # Drag and drop the dist/ folder to Netlify
-```
-
-### GitHub Pages
-```bash
-npm run build
-# Deploy the dist/ folder to gh-pages branch
 ```
 
 ### Custom Server
