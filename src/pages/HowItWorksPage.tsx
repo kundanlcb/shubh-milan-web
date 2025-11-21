@@ -169,7 +169,7 @@ export const HowItWorksPage = () => {
                 </div>
                 <p className="text-gray-600 mb-4">
                   Found someone interesting? Send them a message or interest. Start a conversation through our 
-                  secure chat platform or schedule a video call.
+                  secure chat platform and share your life moments through posts and stories.
                 </p>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-start">
@@ -182,7 +182,7 @@ export const HowItWorksPage = () => {
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
-                    Video and voice calling
+                    Posts and stories to share moments
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">

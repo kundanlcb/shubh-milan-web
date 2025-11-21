@@ -52,7 +52,7 @@ export const FAQPage = () => {
         },
         {
           q: "How can I contact my matches?",
-          a: "You can send interests, messages, or initiate video calls with your matches. Free users have limited messaging capabilities, while premium members enjoy unlimited communication."
+          a: "You can send interests, messages, or share posts and stories with your matches. Free users have limited messaging capabilities, while premium members enjoy unlimited communication."
         }
       ]
     },
