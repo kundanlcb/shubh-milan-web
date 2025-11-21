@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom';
 import { Container } from '../ui/Container';
+import { FOOTER_LINKS } from '@/constants';
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -7,39 +9,59 @@ export const Footer = () => {
     <footer className="bg-gray-900 text-white mt-auto">
       <Container>
         <div className="py-8 md:py-12">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Brand Section */}
             <div>
               <h3 className="text-xl font-bold mb-4">Shubh Milan</h3>
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-400 text-sm mb-4">
                 Connecting hearts, building relationships.
+              </p>
+              <p className="text-gray-400 text-sm font-hindi">
+                शुभ मिलन - आपका विश्वसनीय साथी
               </p>
             </div>
 
-            {/* Quick Links */}
+            {/* Company Links */}
             <div>
-              <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+              <h4 className="text-lg font-semibold mb-4">Company</h4>
               <ul className="space-y-2 text-sm">
-                <li>
-                  <a href="/about" className="text-gray-400 hover:text-white transition-colors">
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a href="/features" className="text-gray-400 hover:text-white transition-colors">
-                    Features
-                  </a>
-                </li>
-                <li>
-                  <a href="/contact" className="text-gray-400 hover:text-white transition-colors">
-                    Contact
-                  </a>
-                </li>
+                {FOOTER_LINKS.company.map((link) => (
+                  <li key={link.path}>
+                    <Link to={link.path} className="text-gray-400 hover:text-white transition-colors">
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
 
-            {/* Social Links */}
+            {/* Support Links */}
             <div>
+              <h4 className="text-lg font-semibold mb-4">Support</h4>
+              <ul className="space-y-2 text-sm">
+                {FOOTER_LINKS.support.map((link) => (
+                  <li key={link.path}>
+                    <Link to={link.path} className="text-gray-400 hover:text-white transition-colors">
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Legal & Social */}
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Legal</h4>
+              <ul className="space-y-2 text-sm mb-6">
+                {FOOTER_LINKS.legal.map((link) => (
+                  <li key={link.path}>
+                    <Link to={link.path} className="text-gray-400 hover:text-white transition-colors">
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              
               <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
               <div className="flex space-x-4">
                 <a 

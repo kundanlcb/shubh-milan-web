@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Container } from '../ui/Container';
+import { NAV_LINKS } from '@/constants';
 
 export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -20,30 +21,15 @@ export const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <Link 
-              to="/" 
-              className="text-gray-700 hover:text-primary-600 transition-colors font-medium"
-            >
-              Home
-            </Link>
-            <Link 
-              to="/about" 
-              className="text-gray-700 hover:text-primary-600 transition-colors font-medium"
-            >
-              About
-            </Link>
-            <Link 
-              to="/features" 
-              className="text-gray-700 hover:text-primary-600 transition-colors font-medium"
-            >
-              Features
-            </Link>
-            <Link 
-              to="/contact" 
-              className="text-gray-700 hover:text-primary-600 transition-colors font-medium"
-            >
-              Contact
-            </Link>
+            {NAV_LINKS.map((link) => (
+              <Link 
+                key={link.path}
+                to={link.path} 
+                className="text-gray-700 hover:text-primary-600 transition-colors font-medium"
+              >
+                {link.label}
+              </Link>
+            ))}
           </nav>
 
           {/* Mobile Menu Button */}
@@ -73,34 +59,16 @@ export const Header = () => {
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
           <nav className="md:hidden pb-4 space-y-2">
-            <Link
-              to="/"
-              className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-primary-600 rounded-md transition-colors font-medium"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Home
-            </Link>
-            <Link
-              to="/about"
-              className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-primary-600 rounded-md transition-colors font-medium"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              About
-            </Link>
-            <Link
-              to="/features"
-              className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-primary-600 rounded-md transition-colors font-medium"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Features
-            </Link>
-            <Link
-              to="/contact"
-              className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-primary-600 rounded-md transition-colors font-medium"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Contact
-            </Link>
+            {NAV_LINKS.map((link) => (
+              <Link
+                key={link.path}
+                to={link.path}
+                className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-primary-600 rounded-md transition-colors font-medium"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {link.label}
+              </Link>
+            ))}
           </nav>
         )}
       </Container>
