@@ -19,11 +19,11 @@ export const HowItWorksPage = () => {
       </section>
 
       {/* Steps Section */}
-      <section className="py-16 md:py-24 bg-[#FFF0F5]">
+      <section className="py-16 md:py-24 bg-white">
         <Container>
           <div className="max-w-5xl mx-auto">
             {/* Step 1 */}
-            <div className="flex flex-col md:flex-row items-center gap-8 mb-16">
+            <div className="flex flex-col md:flex-row items-center gap-8 mb-16 bg-[#FFF0F5] p-8 rounded-2xl">
               <div className="md:w-1/2 order-2 md:order-1">
                 <div className="flex items-center mb-4">
                   <div className="bg-primary text-white w-14 h-14 rounded-full flex items-center justify-center text-xl font-bold mr-4 shadow-lg">
@@ -66,7 +66,7 @@ export const HowItWorksPage = () => {
             </div>
 
             {/* Step 2 */}
-            <div className="flex flex-col md:flex-row items-center gap-8 mb-16">
+            <div className="flex flex-col md:flex-row items-center gap-8 mb-16 bg-[#FFF0F5] p-8 rounded-2xl">
               <div className="md:w-1/2">
                 <div className="bg-white rounded-2xl p-12 flex items-center justify-center h-80">
                   <svg className="w-32 h-32 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -109,7 +109,7 @@ export const HowItWorksPage = () => {
             </div>
 
             {/* Step 3 */}
-            <div className="flex flex-col md:flex-row items-center gap-8 mb-16">
+            <div className="flex flex-col md:flex-row items-center gap-8 mb-16 bg-[#FFF0F5] p-8 rounded-2xl">
               <div className="md:w-1/2 order-2 md:order-1">
                 <div className="flex items-center mb-4">
                   <div className="bg-primary text-white w-14 h-14 rounded-full flex items-center justify-center text-xl font-bold mr-4 shadow-lg">
@@ -152,7 +152,7 @@ export const HowItWorksPage = () => {
             </div>
 
             {/* Step 4 */}
-            <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="flex flex-col md:flex-row items-center gap-8 bg-[#FFF0F5] p-8 rounded-2xl">
               <div className="md:w-1/2">
                 <div className="bg-white rounded-2xl p-12 flex items-center justify-center h-80">
                   <svg className="w-32 h-32 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">

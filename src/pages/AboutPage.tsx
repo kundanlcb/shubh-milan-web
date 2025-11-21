@@ -81,7 +81,7 @@ export const AboutPage = () => {
       </section>
 
       {/* Values Section */}
-      <section className="py-16 md:py-20 bg-gradient-to-br from-primary-50 via-white to-primary-50">
+      <section className="py-16 md:py-20 bg-white">
         <Container>
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">Our Core Values</h2>
