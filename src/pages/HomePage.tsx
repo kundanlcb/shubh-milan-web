@@ -65,7 +65,7 @@ export const HomePage = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 md:py-24 bg-white border-t border-primary">
+      <section className="py-16 md:py-24 bg-[lavenderblush] border-t border-primary">
         <Container>
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
             Why Choose Shubh Milan?
@@ -156,24 +156,24 @@ export const HomePage = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 md:py-20 bg-primary">
+      <section className="py-16 md:py-20 bg-[lavenderblush]">
         <Container>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="transform hover:scale-105 transition-transform">
-              <div className="text-4xl md:text-5xl font-bold mb-2">10K+</div>
-              <div className="text-white text-lg">Active Users</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2 text-primary">10K+</div>
+              <div className="text-black text-lg">Active Users</div>
             </div>
             <div className="transform hover:scale-105 transition-transform">
-              <div className="text-4xl md:text-5xl font-bold mb-2">5K+</div>
-              <div className="text-white text-lg">Success Stories</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2 text-primary">5K+</div>
+              <div className="text-black text-lg">Success Stories</div>
             </div>
             <div className="transform hover:scale-105 transition-transform">
-              <div className="text-4xl md:text-5xl font-bold mb-2">50+</div>
-              <div className="text-white text-lg">Cities</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2 text-primary">50+</div>
+              <div className="text-black text-lg">Cities</div>
             </div>
             <div className="transform hover:scale-105 transition-transform">
-              <div className="text-4xl md:text-5xl font-bold mb-2">98%</div>
-              <div className="text-white text-lg">Satisfaction</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2 text-primary">98%</div>
+              <div className="text-black text-lg">Satisfaction</div>
             </div>
           </div>
         </Container>
