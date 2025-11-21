@@ -1,57 +1,56 @@
-# Shubh Milan Web App
+# Shubh Milan - Informational Website
 
-A fully responsive web application built with React, TypeScript, and Vite. This is the web version of the Shubh Milan React Native app, designed to provide a seamless experience across mobile, tablet, and desktop devices.
+A beautiful, fully responsive informational website for Shubh Milan matrimonial platform. Built with React, TypeScript, and Vite, this static website represents the Shubh Milan brand and provides download links to our Android and iOS mobile applications.
 
-## 🚀 Features
+## 🎯 Purpose
 
-- **Fully Responsive Design**: Mobile-first approach with optimized layouts for all screen sizes
-- **Modern Tech Stack**: Built with React 19, TypeScript, and Vite for optimal performance
-- **Tailwind CSS**: Utility-first CSS framework for rapid UI development
-- **React Router**: Client-side routing for smooth navigation
-- **Type Safety**: Full TypeScript support for better developer experience
-- **Path Aliases**: Clean import statements using @ aliases
+This is an **information-only website** designed to:
+- Showcase the Shubh Milan matrimonial platform
+- Provide comprehensive information about our services
+- Direct users to download our mobile applications
+- Build trust through success stories and testimonials
+- Answer common questions via FAQ
+- Ensure transparency with Privacy Policy and Terms & Conditions
 
-## 📱 Responsive Breakpoints
+**Note:** This is NOT a functional web application. All matchmaking features are available exclusively through our mobile apps.
 
-The app uses the following breakpoints for responsive design:
+## ✨ Features
 
-- **xs**: 320px (Extra small devices)
-- **sm**: 640px (Small devices)
-- **md**: 768px (Tablets)
-- **lg**: 1024px (Desktops)
-- **xl**: 1280px (Large desktops)
-- **2xl**: 1536px (Extra large screens)
+### Pages Included
+- **Home** - Hero section with app download CTAs, key features, and statistics
+- **About** - Mission, values, story, and company information
+- **Features** - Detailed feature descriptions of the mobile app
+- **How It Works** - Step-by-step guide to using Shubh Milan
+- **Download** - Prominent Android/iOS download links and system requirements
+- **Success Stories** - Real testimonials from happy couples
+- **FAQ** - Comprehensive answers to common questions
+- **Contact** - Contact information and inquiry form
+- **Privacy Policy** - Detailed privacy and data protection information
+- **Terms & Conditions** - Legal terms of service
 
-## 🏗️ Project Structure
-
-```
-src/
-├── components/          # Reusable React components
-│   ├── layout/         # Layout components (Header, Footer, MainLayout)
-│   └── ui/             # UI components (Container, etc.)
-├── pages/              # Page components (HomePage, AboutPage, etc.)
-├── hooks/              # Custom React hooks (useResponsive, etc.)
-├── utils/              # Utility functions
-├── services/           # API services and data fetching
-├── types/              # TypeScript type definitions
-├── constants/          # App constants and configuration
-└── assets/             # Static assets (images, fonts, etc.)
-```
+### Design Highlights
+- 🎨 Beautiful magenta/pink color scheme (Primary: #E91E63)
+- 📱 Fully responsive design (mobile-first approach)
+- ⚡ Fast and optimized performance
+- 🌐 SEO-friendly structure
+- ♿ Accessible with semantic HTML
+- 🎯 Professional UI/UX for matrimony industry
+- ✨ Smooth animations and transitions
 
 ## 🛠️ Technology Stack
 
-- **React 19.2.0**: Latest React with improved performance
-- **TypeScript 5.9.3**: Type-safe code
-- **Vite 7.2.4**: Fast build tool and dev server
-- **Tailwind CSS 4.x**: Utility-first CSS framework
-- **React Router DOM**: Client-side routing
-- **ESLint**: Code linting and quality
+- **React 19.2.0** - Latest React with improved performance
+- **TypeScript 5.9.3** - Type-safe code
+- **Vite 7.2.4** - Fast build tool and dev server
+- **Tailwind CSS 4.x** - Utility-first CSS framework
+- **React Router DOM** - Client-side routing
+- **ESLint** - Code linting and quality
 
 ## 📦 Installation
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/kundanlcb/shubh-milan-web.git
 cd shubh-milan-web
 ```
 
@@ -60,9 +59,13 @@ cd shubh-milan-web
 npm install
 ```
 
-3. Create environment file (optional):
-```bash
-cp .env.example .env
+3. Update app download links (optional):
+Edit `src/constants/index.ts` to update the Android and iOS app store links:
+```typescript
+export const APP_LINKS = {
+  android: 'YOUR_GOOGLE_PLAY_STORE_LINK',
+  ios: 'YOUR_APPLE_APP_STORE_LINK',
+} as const;
 ```
 
 ## 🚀 Development
@@ -73,7 +76,7 @@ Start the development server:
 npm run dev
 ```
 
-The app will be available at `http://localhost:5173` (or the next available port).
+The website will be available at `http://localhost:5173` (or the next available port).
 
 ## 🏗️ Build
 
@@ -82,6 +85,8 @@ Build for production:
 ```bash
 npm run build
 ```
+
+The production-ready files will be in the `dist/` directory.
 
 Preview production build:
 
@@ -97,114 +102,146 @@ Run ESLint:
 npm run lint
 ```
 
-## 📝 Coding Conventions
+## 📁 Project Structure
 
-### Import Aliases
-
-Use path aliases for cleaner imports:
-
-```typescript
-// ✅ Good
-import { Container } from '@/components/ui/Container';
-import { useResponsive } from '@/hooks/useResponsive';
-
-// ❌ Avoid
-import { Container } from '../../../components/ui/Container';
 ```
-
-### Component Structure
-
-- Use functional components with TypeScript
-- Define prop interfaces for all components
-- Use `type` imports for type-only imports (required by `verbatimModuleSyntax`)
-
-```typescript
-import type { ReactNode } from 'react';
-
-interface MyComponentProps {
-  children: ReactNode;
-  title: string;
-}
-
-export const MyComponent = ({ children, title }: MyComponentProps) => {
-  // Component logic
-};
+src/
+├── components/
+│   ├── layout/
+│   │   ├── Header.tsx          # Navigation header
+│   │   ├── Footer.tsx          # Footer with links
+│   │   └── MainLayout.tsx      # Main page layout wrapper
+│   └── ui/
+│       └── Container.tsx       # Responsive container component
+├── pages/
+│   ├── HomePage.tsx            # Landing page
+│   ├── AboutPage.tsx           # About us
+│   ├── FeaturesPage.tsx        # App features
+│   ├── HowItWorksPage.tsx      # How it works guide
+│   ├── DownloadPage.tsx        # App download page
+│   ├── SuccessStoriesPage.tsx  # User testimonials
+│   ├── FAQPage.tsx             # Frequently asked questions
+│   ├── PrivacyPage.tsx         # Privacy policy
+│   ├── TermsPage.tsx           # Terms & conditions
+│   └── ContactPage.tsx         # Contact information
+├── constants/
+│   ├── index.ts                # App constants and navigation
+│   ├── colors.ts               # Color definitions
+│   └── styles.ts               # Style constants
+├── hooks/
+│   └── useResponsive.ts        # Responsive utilities hook
+├── App.tsx                     # Main app component with routing
+├── main.tsx                    # App entry point
+└── index.css                   # Global styles
 ```
-
-### Styling
-
-- Use Tailwind CSS utility classes
-- Follow mobile-first responsive design
-- Use semantic HTML elements
-- Ensure accessibility with proper ARIA labels
 
 ## 🎨 Design System
 
-### Colors
+### Color Palette
 
-Primary color palette is defined in `tailwind.config.js`:
-- `primary-50` to `primary-900`: Red color scale for brand identity
+```javascript
+// Primary - Magenta/Pink
+primary: {
+  DEFAULT: '#E91E63',
+  50: '#FCE4EC',
+  100: '#F8BBD0',
+  // ... up to 900
+}
 
-### Typography
+// Secondary - Golden Orange
+secondary: {
+  DEFAULT: '#FF9800',
+  light: '#FFCC02',
+  dark: '#C66900',
+}
 
-- System font stack for optimal performance
-- Responsive font sizes using Tailwind utilities
+// Accent - Green
+accent: {
+  DEFAULT: '#4CAF50',
+  light: '#80E27E',
+  dark: '#087F23',
+}
+```
 
-### Spacing
+### Responsive Breakpoints
 
-- Consistent spacing using Tailwind's spacing scale
-- Container with responsive padding (4, 6, 8 for different breakpoints)
+- **xs**: 320px (Extra small devices)
+- **sm**: 640px (Small devices)
+- **md**: 768px (Tablets)
+- **lg**: 1024px (Desktops)
+- **xl**: 1280px (Large desktops)
+- **2xl**: 1536px (Extra large screens)
 
-## 🌐 Browser Support
+## 🌐 Deployment
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+This is a static website that can be deployed to any hosting service:
 
-## 📄 License
+### Vercel (Recommended)
+```bash
+npm install -g vercel
+vercel
+```
 
-[Add license information]
+### Netlify
+```bash
+npm run build
+# Drag and drop the dist/ folder to Netlify
+```
+
+### GitHub Pages
+```bash
+npm run build
+# Deploy the dist/ folder to gh-pages branch
+```
+
+### Custom Server
+```bash
+npm run build
+# Serve the dist/ folder with any static file server
+```
+
+## 📱 Mobile Apps
+
+The actual Shubh Milan matchmaking functionality is available through our mobile applications:
+
+- **Android**: [Google Play Store Link]
+- **iOS**: [Apple App Store Link]
 
 ## 🤝 Contributing
 
-[Add contribution guidelines]
+This is an informational website for the Shubh Milan platform. For feature requests or bug reports, please contact the development team.
 
-## 📞 Support
+## 📄 License
 
-For support, email contact@shubhmilan.com
+Proprietary - All rights reserved by Shubh Milan
+
+## 📞 Contact
+
+For support or inquiries:
+- Email: contact@shubhmilan.com
+- Phone: +91 1234567890
+- Website: [Production URL]
 
 ---
 
-## Development Phases
+## 🔄 Migration Notes
 
-This is **Phase 1** of the multi-phase development:
+This website was converted from a Phase 1 functional web app prototype to a pure informational static website. All user-facing functionality (authentication, profiles, messaging, matching) has been removed and is exclusively available through the mobile applications.
 
-### ✅ Phase 1: Project Setup & Architecture (Current)
-- Vite + React + TypeScript setup
-- Responsive design system with Tailwind CSS
-- Folder structure and organization
-- Base layout components (Header, Footer)
-- Routing with React Router
-- Initial pages (Home, About, Features, Contact)
-- Path aliases configuration
-- Mobile-first responsive design
+### What Changed:
+- ✅ Removed all functional/interactive features
+- ✅ Removed authentication and user management
+- ✅ Removed database interactions
+- ✅ Simplified to static informational pages
+- ✅ Added comprehensive information pages
+- ✅ Added prominent app download CTAs
+- ✅ Maintained design consistency with mobile app
+- ✅ Enhanced responsive design
+- ✅ Improved SEO structure
 
-### 🔜 Phase 2: Core Features (Upcoming)
-- User authentication
-- Profile management
-- Search and filtering
-- Matching algorithm integration
-
-### 🔜 Phase 3: Advanced Features (Planned)
-- Real-time messaging
-- Video calls
-- Notifications
-- Advanced matching preferences
-
-### 🔜 Phase 4: Testing & Deployment (Planned)
-- Unit tests
-- Integration tests
-- E2E tests
-- CI/CD pipeline
-- Production deployment
+### What Stayed:
+- ✅ React + TypeScript + Vite stack
+- ✅ Tailwind CSS for styling
+- ✅ Color scheme from original design
+- ✅ Responsive layout system
+- ✅ Professional UI components
