@@ -15,7 +15,7 @@ export const SuccessStoriesPage = () => {
       names: "Anjali & Vikram",
       location: "Delhi NCR",
       date: "Married in November 2024",
-      story: "After trying several matrimonial platforms, Shubh Milan stood out with its focus on compatibility and genuine profiles. We connected through shared interests in travel and photography. The video calling feature helped us get to know each other better despite being in different cities.",
+      story: "After trying several matrimonial platforms, Shubh Milan stood out with its focus on compatibility and genuine profiles. We connected through shared interests in travel and photography. The social media features helped us share our moments and get to know each other better despite being in different cities.",
       image: "💑"
     },
     {
@@ -39,7 +39,7 @@ export const SuccessStoriesPage = () => {
       names: "Sneha & Karthik",
       location: "Chennai, Tamil Nadu",
       date: "Married in August 2024",
-      story: "Long-distance relationships can be challenging, but Shubh Milan's secure messaging and video calling features made it easier for us to stay connected. We're grateful for this platform that prioritizes safety and privacy while helping people find love.",
+      story: "Long-distance relationships can be challenging, but Shubh Milan's secure messaging and social media features made it easier for us to stay connected and share our daily moments. We're grateful for this platform that prioritizes safety and privacy while helping people find love.",
       image: "❤️"
     },
     {

@@ -130,12 +130,12 @@ export const HomePage = () => {
             <div className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all border border-primary">
               <div className="bg-primary w-16 h-16 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                  <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Video Calling</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Social Media</h3>
               <p className="text-gray-600">
-                Meet face-to-face virtually before taking the next step in your relationship journey.
+                Share your moments through posts and stories, connect with matches in a social way.
               </p>
             </div>
 
