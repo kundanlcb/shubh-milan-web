@@ -174,9 +174,27 @@ accent: {
 
 ## 🌐 Deployment
 
-This is a static website that can be deployed to any hosting service:
+This website is configured for automatic deployment to GitHub Pages.
 
-### Vercel (Recommended)
+### GitHub Pages (Automated - Recommended)
+
+The website is automatically deployed to GitHub Pages when changes are pushed to the `main` branch.
+
+**Live URL**: `https://kundanlcb.github.io/shubh-milan-web/`
+
+**Setup Instructions**:
+1. Ensure GitHub Pages is enabled in your repository settings
+2. Go to Settings → Pages
+3. Set Source to "GitHub Actions"
+4. Push to the `main` branch to trigger automatic deployment
+
+**Manual Deployment**:
+```bash
+npm run build
+# The workflow will automatically deploy when pushed to main
+```
+
+### Vercel
 ```bash
 npm install -g vercel
 vercel
@@ -186,12 +204,6 @@ vercel
 ```bash
 npm run build
 # Drag and drop the dist/ folder to Netlify
-```
-
-### GitHub Pages
-```bash
-npm run build
-# Deploy the dist/ folder to gh-pages branch
 ```
 
 ### Custom Server
