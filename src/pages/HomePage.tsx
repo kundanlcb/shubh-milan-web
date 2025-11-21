@@ -6,7 +6,7 @@ export const HomePage = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-[lavenderblush] py-16 md:py-24">
+      <section className="bg-[#FFF0F5] py-16 md:py-24">
         <Container>
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
@@ -156,7 +156,7 @@ export const HomePage = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 md:py-20 bg-[lavenderblush]">
+      <section className="py-16 md:py-20 bg-[#FFF0F5]">
         <Container>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="transform hover:scale-105 transition-transform">
