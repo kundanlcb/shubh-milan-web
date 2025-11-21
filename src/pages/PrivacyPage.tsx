@@ -194,7 +194,7 @@ export const PrivacyPage = () => {
             </p>
             <a 
               href="/contact"
-              className="bg-primary-600 text-white px-8 py-4 rounded-xl font-semibold hover:opacity-80 transition-all shadow-lg hover:shadow-xl inline-block"
+              className="bg-primary text-white px-8 py-4 rounded-xl font-semibold hover:opacity-80 transition-all shadow-lg hover:shadow-xl inline-block"
             >
               Contact Us
             </a>

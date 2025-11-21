@@ -219,7 +219,7 @@ export const TermsPage = () => {
               </section>
             </div>
 
-            <div className="mt-12 p-6 bg-primary-50 rounded-xl">
+            <div className="mt-12 p-6 bg-primary rounded-xl">
               <p className="text-gray-700">
                 <strong>By using Shubh Milan, you acknowledge that you have read, understood, and agree to be 
                 bound by these Terms and Conditions.</strong>
@@ -241,7 +241,7 @@ export const TermsPage = () => {
             </p>
             <a 
               href="/contact"
-              className="bg-primary-600 text-white px-8 py-4 rounded-xl font-semibold hover:opacity-80 transition-all shadow-lg hover:shadow-xl inline-block"
+              className="bg-primary text-white px-8 py-4 rounded-xl font-semibold hover:opacity-80 transition-all shadow-lg hover:shadow-xl inline-block"
             >
               Contact Us
             </a>

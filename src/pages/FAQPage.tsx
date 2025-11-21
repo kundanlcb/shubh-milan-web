@@ -120,7 +120,7 @@ export const FAQPage = () => {
             {faqs.map((category, categoryIndex) => (
               <div key={categoryIndex} className="mb-12">
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 flex items-center">
-                  <span className="bg-primary-100 text-primary w-10 h-10 rounded-lg flex items-center justify-center mr-4 text-xl font-bold">
+                  <span className="bg-primary text-primary w-10 h-10 rounded-lg flex items-center justify-center mr-4 text-xl font-bold">
                     {categoryIndex + 1}
                   </span>
                   {category.category}
@@ -179,7 +179,7 @@ export const FAQPage = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
                 href="/contact"
-                className="bg-primary-600 text-white px-8 py-4 rounded-xl font-semibold hover:opacity-80 transition-all shadow-lg hover:shadow-xl inline-block"
+                className="bg-primary text-white px-8 py-4 rounded-xl font-semibold hover:opacity-80 transition-all shadow-lg hover:shadow-xl inline-block"
               >
                 Contact Support
               </a>
