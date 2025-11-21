@@ -55,13 +55,13 @@ export const SuccessStoriesPage = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-50 via-white to-primary-100 py-16 md:py-20">
+      <section className="bg-white py-16 md:py-20">
         <Container>
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Success <span className="text-primary-600">Stories</span>
+              Success <span className="text-primary">Stories</span>
             </h1>
-            <p className="text-xl font-hindi text-primary-700 mb-6">
+            <p className="text-xl font-hindi text-primary mb-6">
               प्यार की कहानियाँ
             </p>
             <p className="text-lg text-gray-600">
@@ -76,19 +76,19 @@ export const SuccessStoriesPage = () => {
         <Container>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center max-w-4xl mx-auto">
             <div>
-              <div className="text-4xl font-bold text-primary-600 mb-2">5,000+</div>
+              <div className="text-4xl font-bold text-primary mb-2">5,000+</div>
               <div className="text-gray-600">Happy Couples</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary-600 mb-2">50+</div>
+              <div className="text-4xl font-bold text-primary mb-2">50+</div>
               <div className="text-gray-600">Cities</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary-600 mb-2">98%</div>
+              <div className="text-4xl font-bold text-primary mb-2">98%</div>
               <div className="text-gray-600">Satisfaction</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary-600 mb-2">10K+</div>
+              <div className="text-4xl font-bold text-primary mb-2">10K+</div>
               <div className="text-gray-600">Active Users</div>
             </div>
           </div>
@@ -105,8 +105,8 @@ export const SuccessStoriesPage = () => {
                   <div className="bg-gradient-to-br from-primary-600 to-primary-700 p-8 text-white text-center">
                     <div className="text-6xl mb-4">{story.image}</div>
                     <h3 className="text-2xl font-bold mb-2">{story.names}</h3>
-                    <p className="text-primary-100">{story.location}</p>
-                    <p className="text-sm text-primary-200 mt-2">{story.date}</p>
+                    <p className="text-primary">{story.location}</p>
+                    <p className="text-sm text-primary mt-2">{story.date}</p>
                   </div>
                   <div className="p-8">
                     <p className="text-gray-600 leading-relaxed italic">
@@ -128,7 +128,7 @@ export const SuccessStoriesPage = () => {
               What Our Users Say
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-gradient-to-br from-primary-50 to-white p-6 rounded-2xl shadow-md">
+              <div className="bg-white p-6 rounded-2xl shadow-md">
                 <div className="flex mb-4">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <svg key={star} className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
@@ -142,7 +142,7 @@ export const SuccessStoriesPage = () => {
                 <p className="font-semibold text-gray-900">- Meera S., Jaipur</p>
               </div>
 
-              <div className="bg-gradient-to-br from-primary-50 to-white p-6 rounded-2xl shadow-md">
+              <div className="bg-white p-6 rounded-2xl shadow-md">
                 <div className="flex mb-4">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <svg key={star} className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
@@ -156,7 +156,7 @@ export const SuccessStoriesPage = () => {
                 <p className="font-semibold text-gray-900">- Rahul K., Mumbai</p>
               </div>
 
-              <div className="bg-gradient-to-br from-primary-50 to-white p-6 rounded-2xl shadow-md">
+              <div className="bg-white p-6 rounded-2xl shadow-md">
                 <div className="flex mb-4">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <svg key={star} className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
@@ -179,12 +179,12 @@ export const SuccessStoriesPage = () => {
         <Container>
           <div className="max-w-3xl mx-auto text-center text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Write Your Own Success Story</h2>
-            <p className="text-xl text-primary-100 mb-8">
+            <p className="text-xl text-primary mb-8">
               Join thousands of happy couples who found their perfect match on Shubh Milan
             </p>
             <a 
               href="/download"
-              className="bg-white text-primary-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl inline-block"
+              className="bg-white text-primary px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl inline-block"
             >
               Download the App
             </a>

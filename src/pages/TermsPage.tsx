@@ -4,11 +4,11 @@ export const TermsPage = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-50 via-white to-primary-100 py-16 md:py-20">
+      <section className="bg-white py-16 md:py-20">
         <Container>
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Terms & <span className="text-primary-600">Conditions</span>
+              Terms & <span className="text-primary">Conditions</span>
             </h1>
             <p className="text-lg text-gray-600">
               Last updated: December 2024
@@ -219,7 +219,7 @@ export const TermsPage = () => {
               </section>
             </div>
 
-            <div className="mt-12 p-6 bg-primary-50 rounded-xl">
+            <div className="mt-12 p-6 bg-primary rounded-xl">
               <p className="text-gray-700">
                 <strong>By using Shubh Milan, you acknowledge that you have read, understood, and agree to be 
                 bound by these Terms and Conditions.</strong>
@@ -241,7 +241,7 @@ export const TermsPage = () => {
             </p>
             <a 
               href="/contact"
-              className="bg-primary-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-primary-700 transition-all shadow-lg hover:shadow-xl inline-block"
+              className="bg-primary text-white px-8 py-4 rounded-xl font-semibold hover:opacity-80 transition-all shadow-lg hover:shadow-xl inline-block"
             >
               Contact Us
             </a>

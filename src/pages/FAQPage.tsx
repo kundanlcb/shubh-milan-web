@@ -100,11 +100,11 @@ export const FAQPage = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-50 via-white to-primary-100 py-16 md:py-20">
+      <section className="bg-white py-16 md:py-20">
         <Container>
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Frequently Asked <span className="text-primary-600">Questions</span>
+              Frequently Asked <span className="text-primary">Questions</span>
             </h1>
             <p className="text-lg text-gray-600">
               Find answers to common questions about Shubh Milan
@@ -120,7 +120,7 @@ export const FAQPage = () => {
             {faqs.map((category, categoryIndex) => (
               <div key={categoryIndex} className="mb-12">
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 flex items-center">
-                  <span className="bg-primary-100 text-primary-600 w-10 h-10 rounded-lg flex items-center justify-center mr-4 text-xl font-bold">
+                  <span className="bg-primary text-primary w-10 h-10 rounded-lg flex items-center justify-center mr-4 text-xl font-bold">
                     {categoryIndex + 1}
                   </span>
                   {category.category}
@@ -141,7 +141,7 @@ export const FAQPage = () => {
                         >
                           <span className="font-semibold text-gray-900 pr-4">{faq.q}</span>
                           <svg
-                            className={`w-5 h-5 text-primary-600 flex-shrink-0 transition-transform ${
+                            className={`w-5 h-5 text-primary flex-shrink-0 transition-transform ${
                               isOpen ? 'transform rotate-180' : ''
                             }`}
                             fill="none"
@@ -179,13 +179,13 @@ export const FAQPage = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
                 href="/contact"
-                className="bg-primary-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-primary-700 transition-all shadow-lg hover:shadow-xl inline-block"
+                className="bg-primary text-white px-8 py-4 rounded-xl font-semibold hover:opacity-80 transition-all shadow-lg hover:shadow-xl inline-block"
               >
                 Contact Support
               </a>
               <a 
                 href="mailto:support@shubhmilan.com"
-                className="bg-white text-primary-600 border-2 border-primary-600 px-8 py-4 rounded-xl font-semibold hover:bg-primary-50 transition-all inline-block"
+                className="bg-white text-primary border-2 border-primary px-8 py-4 rounded-xl font-semibold hover:opacity-80 transition-all inline-block"
               >
                 Email Us
               </a>
