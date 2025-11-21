@@ -1,4 +1,4 @@
-// Minimal color palette - White and Magenta only
+// Minimal color palette - White and Magenta only with standard text colors
 export const Colors = {
   // Primary Colors - Beautiful magenta
   primary: '#E91E63', // Beautiful magenta - main brand color
@@ -6,10 +6,10 @@ export const Colors = {
   // White
   white: '#FFFFFF',
 
-  // Text Colors (using magenta for primary text, white for inverse)
-  textPrimary: '#E91E63',
-  textSecondary: '#E91E63',
-  textInverse: '#FFFFFF',
+  // Standard Text Colors for readability
+  textPrimary: '#1F2937', // Dark gray for primary text on white backgrounds
+  textSecondary: '#6B7280', // Medium gray for secondary text on white backgrounds
+  textInverse: '#FFFFFF', // White text for magenta backgrounds
 
   // Background Colors (white only)
   background: '#FFFFFF',
