@@ -9,13 +9,13 @@ export const HomePage = () => {
       <section className="bg-gradient-to-br from-primary-50 via-white to-primary-100 py-16 md:py-24">
         <Container>
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-text-primary mb-4">
               Find Your Perfect <span className="text-primary-600">जीवनसाथी</span>
             </h1>
-            <p className="text-xl md:text-2xl font-hindi text-primary-700 mb-6">
+            <p className="text-xl md:text-2xl font-hindi text-primary-600 mb-6">
               शुभ मिलन
             </p>
-            <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-text-secondary mb-8 max-w-2xl mx-auto">
               India's most trusted matrimonial platform connecting hearts and building lasting relationships.
             </p>
             
@@ -65,89 +65,89 @@ export const HomePage = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 md:py-24 bg-white">
+      <section className="py-16 md:py-24 bg-background">
         <Container>
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-primary-700 mb-4">
             Why Choose Shubh Milan?
           </h2>
-          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+          <p className="text-center text-text-secondary mb-12 max-w-2xl mx-auto">
             Experience a secure, authentic, and efficient matchmaking journey with our innovative platform
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Feature 1 */}
-            <div className="bg-gradient-to-br from-primary-50 to-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all">
-              <div className="bg-primary-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6 shadow-lg">
-                <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            <div className="bg-gradient-to-br from-primary-50 to-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all border border-primary-100">
+              <div className="bg-gradient-to-br from-primary-500 to-primary-600 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Verified Profiles</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-semibold text-primary-800 mb-3">Verified Profiles</h3>
+              <p className="text-text-secondary">
                 Every profile is thoroughly verified to ensure authenticity and safety for all our users.
               </p>
             </div>
 
             {/* Feature 2 */}
-            <div className="bg-gradient-to-br from-primary-50 to-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all">
-              <div className="bg-primary-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6 shadow-lg">
-                <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+            <div className="bg-gradient-to-br from-primary-50 to-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all border border-primary-100">
+              <div className="bg-gradient-to-br from-primary-500 to-primary-600 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Privacy First</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-semibold text-primary-800 mb-3">Privacy First</h3>
+              <p className="text-text-secondary">
                 Your data is secure with industry-leading encryption and comprehensive privacy controls.
               </p>
             </div>
 
             {/* Feature 3 */}
-            <div className="bg-gradient-to-br from-primary-50 to-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all">
-              <div className="bg-primary-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6 shadow-lg">
-                <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+            <div className="bg-gradient-to-br from-primary-50 to-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all border border-primary-100">
+              <div className="bg-gradient-to-br from-primary-500 to-primary-600 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Smart Matching</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-semibold text-primary-800 mb-3">Smart Matching</h3>
+              <p className="text-text-secondary">
                 Advanced AI algorithms find your perfect match based on compatibility and preferences.
               </p>
             </div>
 
             {/* Feature 4 */}
-            <div className="bg-gradient-to-br from-primary-50 to-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all">
-              <div className="bg-primary-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6 shadow-lg">
-                <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+            <div className="bg-gradient-to-br from-primary-50 to-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all border border-primary-100">
+              <div className="bg-gradient-to-br from-primary-500 to-primary-600 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Instant Messaging</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-semibold text-primary-800 mb-3">Instant Messaging</h3>
+              <p className="text-text-secondary">
                 Connect instantly with potential matches through our secure messaging platform.
               </p>
             </div>
 
             {/* Feature 5 */}
-            <div className="bg-gradient-to-br from-primary-50 to-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all">
-              <div className="bg-primary-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6 shadow-lg">
-                <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+            <div className="bg-gradient-to-br from-primary-50 to-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all border border-primary-100">
+              <div className="bg-gradient-to-br from-primary-500 to-primary-600 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Video Calling</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-semibold text-primary-800 mb-3">Video Calling</h3>
+              <p className="text-text-secondary">
                 Meet face-to-face virtually before taking the next step in your relationship journey.
               </p>
             </div>
 
             {/* Feature 6 */}
-            <div className="bg-gradient-to-br from-primary-50 to-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all">
-              <div className="bg-primary-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6 shadow-lg">
-                <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+            <div className="bg-gradient-to-br from-primary-50 to-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all border border-primary-100">
+              <div className="bg-gradient-to-br from-primary-500 to-primary-600 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.31-8.86c-1.77-.45-2.34-.94-2.34-1.67 0-.84.79-1.43 2.1-1.43 1.38 0 1.9.66 1.94 1.64h1.71c-.05-1.34-.87-2.57-2.49-2.97V5H10.9v1.69c-1.51.32-2.72 1.3-2.72 2.81 0 1.79 1.49 2.69 3.66 3.21 1.95.46 2.34 1.15 2.34 1.87 0 .53-.39 1.39-2.1 1.39-1.6 0-2.23-.72-2.32-1.64H8.04c.1 1.7 1.36 2.66 2.86 2.97V19h2.34v-1.67c1.52-.29 2.72-1.16 2.73-2.77-.01-2.2-1.9-2.96-3.66-3.42z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">24/7 Support</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-semibold text-primary-800 mb-3">24/7 Support</h3>
+              <p className="text-text-secondary">
                 Our dedicated support team is always available to help you on your matchmaking journey.
               </p>
             </div>
@@ -156,37 +156,37 @@ export const HomePage = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 md:py-20 bg-gradient-to-br from-primary-600 to-primary-700">
+      <section className="py-16 md:py-20 bg-gradient-to-br from-primary-500 via-primary-600 to-primary-700">
         <Container>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
-            <div>
+            <div className="transform hover:scale-105 transition-transform">
               <div className="text-4xl md:text-5xl font-bold mb-2">10K+</div>
-              <div className="text-primary-100">Active Users</div>
+              <div className="text-primary-100 text-lg">Active Users</div>
             </div>
-            <div>
+            <div className="transform hover:scale-105 transition-transform">
               <div className="text-4xl md:text-5xl font-bold mb-2">5K+</div>
-              <div className="text-primary-100">Success Stories</div>
+              <div className="text-primary-100 text-lg">Success Stories</div>
             </div>
-            <div>
+            <div className="transform hover:scale-105 transition-transform">
               <div className="text-4xl md:text-5xl font-bold mb-2">50+</div>
-              <div className="text-primary-100">Cities</div>
+              <div className="text-primary-100 text-lg">Cities</div>
             </div>
-            <div>
+            <div className="transform hover:scale-105 transition-transform">
               <div className="text-4xl md:text-5xl font-bold mb-2">98%</div>
-              <div className="text-primary-100">Satisfaction</div>
+              <div className="text-primary-100 text-lg">Satisfaction</div>
             </div>
           </div>
         </Container>
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-white">
+      <section className="py-16 md:py-24 bg-gradient-to-br from-primary-50 via-white to-primary-50">
         <Container>
           <div className="text-center max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary-700 mb-6">
               Ready to Find Your Perfect Match?
             </h2>
-            <p className="text-lg md:text-xl text-gray-600 mb-8">
+            <p className="text-lg md:text-xl text-text-secondary mb-8">
               Download the Shubh Milan app today and start your journey towards finding your life partner.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

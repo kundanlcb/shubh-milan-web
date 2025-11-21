@@ -6,28 +6,33 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-white mt-auto">
+    <footer className="bg-gradient-to-br from-gray-900 via-gray-900 to-primary-900 text-white mt-auto">
       <Container>
         <div className="py-8 md:py-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Brand Section */}
             <div>
-              <h3 className="text-xl font-bold mb-4">Shubh Milan</h3>
-              <p className="text-gray-400 text-sm mb-4">
+              <div className="flex items-center space-x-2 mb-4">
+                <svg className="w-8 h-8 text-primary-400" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+                <h3 className="text-xl font-bold">Shubh Milan</h3>
+              </div>
+              <p className="text-gray-300 text-sm mb-4">
                 Connecting hearts, building relationships.
               </p>
-              <p className="text-gray-400 text-sm font-hindi">
+              <p className="text-primary-300 text-sm font-hindi">
                 शुभ मिलन - आपका विश्वसनीय साथी
               </p>
             </div>
 
             {/* Company Links */}
             <div>
-              <h4 className="text-lg font-semibold mb-4">Company</h4>
+              <h4 className="text-lg font-semibold mb-4 text-primary-300">Company</h4>
               <ul className="space-y-2 text-sm">
                 {FOOTER_LINKS.company.map((link) => (
                   <li key={link.path}>
-                    <Link to={link.path} className="text-gray-400 hover:text-white transition-colors">
+                    <Link to={link.path} className="text-gray-300 hover:text-primary-400 transition-colors">
                       {link.label}
                     </Link>
                   </li>
@@ -37,11 +42,11 @@ export const Footer = () => {
 
             {/* Support Links */}
             <div>
-              <h4 className="text-lg font-semibold mb-4">Support</h4>
+              <h4 className="text-lg font-semibold mb-4 text-primary-300">Support</h4>
               <ul className="space-y-2 text-sm">
                 {FOOTER_LINKS.support.map((link) => (
                   <li key={link.path}>
-                    <Link to={link.path} className="text-gray-400 hover:text-white transition-colors">
+                    <Link to={link.path} className="text-gray-300 hover:text-primary-400 transition-colors">
                       {link.label}
                     </Link>
                   </li>
@@ -51,22 +56,22 @@ export const Footer = () => {
 
             {/* Legal & Social */}
             <div>
-              <h4 className="text-lg font-semibold mb-4">Legal</h4>
+              <h4 className="text-lg font-semibold mb-4 text-primary-300">Legal</h4>
               <ul className="space-y-2 text-sm mb-6">
                 {FOOTER_LINKS.legal.map((link) => (
                   <li key={link.path}>
-                    <Link to={link.path} className="text-gray-400 hover:text-white transition-colors">
+                    <Link to={link.path} className="text-gray-300 hover:text-primary-400 transition-colors">
                       {link.label}
                     </Link>
                   </li>
                 ))}
               </ul>
               
-              <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
+              <h4 className="text-lg font-semibold mb-4 text-primary-300">Follow Us</h4>
               <div className="flex space-x-4">
                 <a 
                   href="#" 
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="text-gray-300 hover:text-primary-400 transition-colors transform hover:scale-110"
                   aria-label="Facebook"
                 >
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -75,7 +80,7 @@ export const Footer = () => {
                 </a>
                 <a 
                   href="#" 
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="text-gray-300 hover:text-primary-400 transition-colors transform hover:scale-110"
                   aria-label="Twitter"
                 >
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -84,7 +89,7 @@ export const Footer = () => {
                 </a>
                 <a 
                   href="#" 
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="text-gray-300 hover:text-primary-400 transition-colors transform hover:scale-110"
                   aria-label="Instagram"
                 >
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -96,7 +101,7 @@ export const Footer = () => {
           </div>
 
           {/* Bottom Bar */}
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
+          <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-300">
             <p>&copy; {currentYear} Shubh Milan. All rights reserved.</p>
           </div>
         </div>
