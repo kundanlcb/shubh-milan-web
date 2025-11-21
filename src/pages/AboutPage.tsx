@@ -22,7 +22,7 @@ export const AboutPage = () => {
       </section>
 
       {/* Mission Section */}
-      <section className="py-16 md:py-20 bg-background">
+      <section className="py-16 md:py-20 bg-[#FFF0F5]">
         <Container>
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
