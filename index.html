@@ -23,7 +23,7 @@
         var redirect = sessionStorage.redirect;
         delete sessionStorage.redirect;
         // Validate redirect is a valid path within our app before using it
-        if (redirect && typeof redirect === 'string' && redirect.startsWith('/shubh-milan-web/')) {
+        if (redirect && typeof redirect === 'string' && redirect.startsWith('/dilkor-web/')) {
           // Only use paths, not full URLs, for security
           history.replaceState(null, null, redirect);
         }
