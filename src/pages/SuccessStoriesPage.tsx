@@ -1,54 +1,57 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { Container } from '../components/ui/Container';
 
 export const SuccessStoriesPage = () => {
+  const { t } = useTranslation();
+
   const stories = [
     {
       id: 1,
       names: "Priya & Raj",
       location: "Mumbai, Maharashtra",
-      date: "Married in December 2024",
-      story: "We matched on Dilkor in January 2024, and from our very first conversation, we knew there was something special. The platform's detailed profiles helped us understand each other's values and aspirations before we even met. Six months later, we're happily married!",
+      date: `${t('successStories.marriedIn')} December 2024`,
+      story: t('successStories.story1'),
       image: "👫"
     },
     {
       id: 2,
       names: "Anjali & Vikram",
       location: "Delhi NCR",
-      date: "Married in November 2024",
-      story: "After trying several matrimonial platforms, Dilkor stood out with its focus on compatibility and genuine profiles. We connected through shared interests in travel and photography. The social media features helped us share our moments and get to know each other better despite being in different cities.",
+      date: `${t('successStories.marriedIn')} November 2024`,
+      story: t('successStories.story2'),
       image: "💑"
     },
     {
       id: 3,
       names: "Neha & Aditya",
       location: "Bangalore, Karnataka",
-      date: "Married in October 2024",
-      story: "As working professionals, we appreciated Dilkor's efficient matching algorithm that saved us time. Within weeks, we found each other, and the rest is history. The platform made it easy to connect with someone who truly understood our lifestyle and values.",
+      date: `${t('successStories.marriedIn')} October 2024`,
+      story: t('successStories.story3'),
       image: "👩‍❤️‍👨"
     },
     {
       id: 4,
       names: "Kavita & Rohit",
       location: "Pune, Maharashtra",
-      date: "Married in September 2024",
-      story: "We were both looking for partners from our community, and Dilkor's advanced filters made it easy to find compatible matches. The verification process gave us confidence that profiles were genuine. Thank you Dilkor for bringing us together!",
+      date: `${t('successStories.marriedIn')} September 2024`,
+      story: t('successStories.story4'),
       image: "💕"
     },
     {
       id: 5,
       names: "Sneha & Karthik",
       location: "Chennai, Tamil Nadu",
-      date: "Married in August 2024",
-      story: "Long-distance relationships can be challenging, but Dilkor's secure messaging and social media features made it easier for us to stay connected and share our daily moments. We're grateful for this platform that prioritizes safety and privacy while helping people find love.",
+      date: `${t('successStories.marriedIn')} August 2024`,
+      story: t('successStories.story5'),
       image: "❤️"
     },
     {
       id: 6,
       names: "Pooja & Amit",
       location: "Hyderabad, Telangana",
-      date: "Married in July 2024",
-      story: "Traditional values meet modern technology - that's what Dilkor represents for us. Our families were involved in the process, and the platform's family-friendly approach made everything smooth. We couldn't have asked for a better matchmaking experience.",
+      date: `${t('successStories.marriedIn')} July 2024`,
+      story: t('successStories.story6'),
       image: "💝"
     },
   ];
@@ -60,13 +63,13 @@ export const SuccessStoriesPage = () => {
         <Container>
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Success <span className="text-primary">Stories</span>
+              {t('successStories.title')}
             </h1>
             <p className="text-xl font-hindi text-primary mb-6">
-              प्यार की कहानियाँ
+              {t('successStories.subtitle')}
             </p>
             <p className="text-lg text-gray-600">
-              Real couples, real stories, real happiness. Read how Dilkor helped thousands find their perfect match.
+              {t('successStories.description')}
             </p>
           </div>
         </Container>
@@ -78,19 +81,19 @@ export const SuccessStoriesPage = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center max-w-4xl mx-auto">
             <div>
               <div className="text-4xl font-bold text-primary mb-2">5,000+</div>
-              <div className="text-gray-600">Happy Couples</div>
+              <div className="text-gray-600">{t('home.happyCouples')}</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-primary mb-2">50+</div>
-              <div className="text-gray-600">Cities</div>
+              <div className="text-gray-600">{t('home.citiesCovered')}</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-primary mb-2">98%</div>
-              <div className="text-gray-600">Satisfaction</div>
+              <div className="text-gray-600">{t('home.satisfaction')}</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-primary mb-2">10K+</div>
-              <div className="text-gray-600">Active Users</div>
+              <div className="text-gray-600">{t('home.activeUsers')}</div>
             </div>
           </div>
         </Container>
@@ -126,7 +129,7 @@ export const SuccessStoriesPage = () => {
         <Container>
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
-              What Our Users Say
+              {t('successStories.whatUsersSay')}
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-md">
@@ -138,7 +141,7 @@ export const SuccessStoriesPage = () => {
                   ))}
                 </div>
                 <p className="text-gray-600 mb-4 italic">
-                  "Best matrimonial app! Found my perfect match within 3 months. Highly recommended!"
+                  "{t('successStories.testimonial1')}"
                 </p>
                 <p className="font-semibold text-gray-900">- Meera S., Jaipur</p>
               </div>
@@ -152,7 +155,7 @@ export const SuccessStoriesPage = () => {
                   ))}
                 </div>
                 <p className="text-gray-600 mb-4 italic">
-                  "User-friendly interface and genuine profiles. The verification process is excellent!"
+                  "{t('successStories.testimonial2')}"
                 </p>
                 <p className="font-semibold text-gray-900">- Rahul K., Mumbai</p>
               </div>
@@ -166,7 +169,7 @@ export const SuccessStoriesPage = () => {
                   ))}
                 </div>
                 <p className="text-gray-600 mb-4 italic">
-                  "Great support team and advanced features. Made finding my soulmate so much easier!"
+                  "{t('successStories.testimonial3')}"
                 </p>
                 <p className="font-semibold text-gray-900">- Priya M., Bangalore</p>
               </div>
@@ -179,15 +182,15 @@ export const SuccessStoriesPage = () => {
       <section className="py-16 md:py-20 bg-gradient-to-br from-primary-600 to-primary-700">
         <Container>
           <div className="max-w-3xl mx-auto text-center text-white">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Write Your Own Success Story</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('successStories.writeYourStory')}</h2>
             <p className="text-xl text-primary mb-8">
-              Join thousands of happy couples who found their perfect match on Dilkor
+              {t('successStories.joinMessage')}
             </p>
             <Link
               to="/download"
               className="bg-white text-primary px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl inline-block"
             >
-              App Coming Soon
+              {t('common.comingSoon')}
             </Link>
           </div>
         </Container>

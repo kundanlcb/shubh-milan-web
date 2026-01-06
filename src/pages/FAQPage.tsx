@@ -1,93 +1,95 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { Container } from '../components/ui/Container';
 
 export const FAQPage = () => {
+  const { t } = useTranslation();
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const faqs = [
     {
-      category: "Getting Started",
+      category: t('faq.gettingStarted'),
       questions: [
         {
-          q: "How do I create an account on Dilkor?",
-          a: "Download the Dilkor app from Google Play Store or Apple App Store. Sign up using your email or phone number, verify your account, and complete your profile with accurate information."
+          q: t('faq.q1'),
+          a: t('faq.a1')
         },
         {
-          q: "Is Dilkor free to use?",
-          a: "Yes, Dilkor offers a free basic membership that allows you to create a profile, browse matches, and send limited messages. Premium features are available through subscription plans."
+          q: t('faq.q2'),
+          a: t('faq.a2')
         },
         {
-          q: "How long does profile verification take?",
-          a: "Profile verification typically takes 24-48 hours. We thoroughly review each profile to ensure authenticity and safety for all our users."
+          q: t('faq.q3'),
+          a: t('faq.a3')
         }
       ]
     },
     {
-      category: "Privacy & Security",
+      category: t('faq.privacySecurity'),
       questions: [
         {
-          q: "How is my personal information protected?",
-          a: "We use industry-standard encryption and security measures to protect your data. Your information is never shared with third parties without your consent, and you have complete control over your privacy settings."
+          q: t('faq.q4'),
+          a: t('faq.a4')
         },
         {
-          q: "Can I hide my profile from certain people?",
-          a: "Yes, you can block specific users or hide your profile from non-members. Premium users have additional privacy controls including incognito mode."
+          q: t('faq.q5'),
+          a: t('faq.a5')
         },
         {
-          q: "How do you verify profiles?",
-          a: "We verify profiles through multiple methods including phone verification, email verification, document verification, and photo verification to ensure authenticity."
+          q: t('faq.q6'),
+          a: t('faq.a6')
         }
       ]
     },
     {
-      category: "Matching & Communication",
+      category: t('faq.matchingCommunication'),
       questions: [
         {
-          q: "How does the matching algorithm work?",
-          a: "Our AI-powered algorithm considers your preferences, interests, values, and compatibility factors to suggest the most suitable matches. The more complete your profile, the better the matches."
+          q: t('faq.q7'),
+          a: t('faq.a7')
         },
         {
-          q: "Can I search for specific criteria?",
-          a: "Yes, you can use advanced filters to search by age, location, education, profession, religion, community, and many other criteria to find your ideal match."
+          q: t('faq.q8'),
+          a: t('faq.a8')
         },
         {
-          q: "How can I contact my matches?",
-          a: "You can send interests, messages, or share posts and stories with your matches. Free users have limited messaging capabilities, while premium members enjoy unlimited communication."
+          q: t('faq.q9'),
+          a: t('faq.a9')
         }
       ]
     },
     {
-      category: "Subscription & Payment",
+      category: t('faq.subscriptionPayment'),
       questions: [
         {
-          q: "What are the subscription plans?",
-          a: "We offer monthly, quarterly, and annual subscription plans with varying features. Premium plans include unlimited messaging, advanced search, profile visibility boost, and more."
+          q: t('faq.q10'),
+          a: t('faq.a10')
         },
         {
-          q: "How do I cancel my subscription?",
-          a: "You can cancel your subscription anytime from your account settings. Your premium features will remain active until the end of your current billing period."
+          q: t('faq.q11'),
+          a: t('faq.a11')
         },
         {
-          q: "Do you offer refunds?",
-          a: "Refund policies vary based on your location and the type of subscription. Please refer to our Terms & Conditions or contact support for specific refund requests."
+          q: t('faq.q12'),
+          a: t('faq.a12')
         }
       ]
     },
     {
-      category: "Technical Support",
+      category: t('faq.technicalSupport'),
       questions: [
         {
-          q: "The app is not working properly. What should I do?",
-          a: "Try updating to the latest version of the app, clearing cache, or reinstalling. If the issue persists, contact our support team with details about the problem."
+          q: t('faq.q13'),
+          a: t('faq.a13')
         },
         {
-          q: "How do I report a suspicious profile?",
-          a: "You can report any profile by clicking the 'Report' option on their profile page. Our team will investigate and take appropriate action within 24 hours."
+          q: t('faq.q14'),
+          a: t('faq.a14')
         },
         {
-          q: "Can I use Dilkor on multiple devices?",
-          a: "Yes, you can log in to your account on multiple devices. Your data syncs automatically across all devices."
+          q: t('faq.q15'),
+          a: t('faq.a15')
         }
       ]
     }
@@ -105,10 +107,10 @@ export const FAQPage = () => {
         <Container>
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Frequently Asked <span className="text-primary">Questions</span>
+              {t('faq.title')}
             </h1>
             <p className="text-lg text-gray-600">
-              Find answers to common questions about Dilkor
+              {t('faq.subtitle')}
             </p>
           </div>
         </Container>
@@ -172,23 +174,23 @@ export const FAQPage = () => {
         <Container>
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Still Have Questions?
+              {t('faq.stillHaveQuestions')}
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Can't find the answer you're looking for? Our support team is here to help.
+              {t('faq.stillHaveQuestionsDesc')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/contact"
                 className="bg-primary text-white px-8 py-4 rounded-xl font-semibold hover:opacity-80 transition-all shadow-lg hover:shadow-xl inline-block"
               >
-                Contact Support
+                {t('faq.contactSupport')}
               </Link>
               <a
                 href="mailto:support@dilkor.com"
                 className="bg-white text-primary border-2 border-primary px-8 py-4 rounded-xl font-semibold hover:opacity-80 transition-all inline-block"
               >
-                Email Us
+                {t('faq.emailUs')}
               </a>
             </div>
           </div>

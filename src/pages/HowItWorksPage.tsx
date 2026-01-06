@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { Container } from '../components/ui/Container';
 
 export const HowItWorksPage = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       {/* Hero Section */}
@@ -9,10 +12,10 @@ export const HowItWorksPage = () => {
         <Container>
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-              How It <span className="text-primary">Works</span>
+              {t('howItWorks.title')}
             </h1>
             <p className="text-lg text-gray-600">
-              Finding your perfect match is just a few simple steps away. Here's how Dilkor works.
+              {t('howItWorks.pageSubtitle')}
             </p>
           </div>
         </Container>
@@ -29,30 +32,29 @@ export const HowItWorksPage = () => {
                   <div className="bg-primary text-white w-14 h-14 rounded-full flex items-center justify-center text-xl font-bold mr-4 shadow-lg">
                     1
                   </div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Download & Sign Up</h2>
+                  <h2 className="text-2xl md:text-3xl font-bold text-gray-900">{t('howItWorks.step1Title')}</h2>
                 </div>
                 <p className="text-gray-600 mb-4">
-                  Download the Dilkor app from Google Play Store or Apple App Store. Create your account
-                  with your email or phone number and verify your identity.
+                  {t('howItWorks.step1Desc')}
                 </p>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
-                    Quick and easy registration process
+                    {t('howItWorks.step1Point1')}
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
-                    Secure verification methods
+                    {t('howItWorks.step1Point2')}
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
-                    Privacy-first approach
+                    {t('howItWorks.step1Point3')}
                   </li>
                 </ul>
               </div>
@@ -79,30 +81,29 @@ export const HowItWorksPage = () => {
                   <div className="bg-primary text-white w-14 h-14 rounded-full flex items-center justify-center text-xl font-bold mr-4 shadow-lg">
                     2
                   </div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Create Your Profile</h2>
+                  <h2 className="text-2xl md:text-3xl font-bold text-gray-900">{t('howItWorks.step2Title')}</h2>
                 </div>
                 <p className="text-gray-600 mb-4">
-                  Build a comprehensive profile that showcases who you are. Add your photos, education, 
-                  profession, interests, and preferences to help find the perfect match.
+                  {t('howItWorks.step2Desc')}
                 </p>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
-                    Add up to 10 photos
+                    {t('howItWorks.step2Point1')}
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
-                    Detailed preferences and interests
+                    {t('howItWorks.step2Point2')}
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
-                    Verification badges for authenticity
+                    {t('howItWorks.step2Point3')}
                   </li>
                 </ul>
               </div>
@@ -115,30 +116,29 @@ export const HowItWorksPage = () => {
                   <div className="bg-primary text-white w-14 h-14 rounded-full flex items-center justify-center text-xl font-bold mr-4 shadow-lg">
                     3
                   </div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Find Matches</h2>
+                  <h2 className="text-2xl md:text-3xl font-bold text-gray-900">{t('howItWorks.step3Title')}</h2>
                 </div>
                 <p className="text-gray-600 mb-4">
-                  Our smart algorithm suggests compatible profiles based on your preferences, interests, and values. 
-                  Browse through matches and find someone special.
+                  {t('howItWorks.step3Desc')}
                 </p>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
-                    AI-powered match suggestions
+                    {t('howItWorks.step3Point1')}
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
-                    Advanced search and filters
+                    {t('howItWorks.step3Point2')}
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
-                    Daily personalized recommendations
+                    {t('howItWorks.step3Point3')}
                   </li>
                 </ul>
               </div>
@@ -165,30 +165,29 @@ export const HowItWorksPage = () => {
                   <div className="bg-primary text-white w-14 h-14 rounded-full flex items-center justify-center text-xl font-bold mr-4 shadow-lg">
                     4
                   </div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Connect & Chat</h2>
+                  <h2 className="text-2xl md:text-3xl font-bold text-gray-900">{t('howItWorks.step4Title')}</h2>
                 </div>
                 <p className="text-gray-600 mb-4">
-                  Found someone interesting? Send them a message or interest. Start a conversation through our 
-                  secure chat platform and share your life moments through posts and stories.
+                  {t('howItWorks.step4Desc')}
                 </p>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
-                    Secure instant messaging
+                    {t('howItWorks.step4Point1')}
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
-                    Posts and stories to share moments
+                    {t('howItWorks.step4Point2')}
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
-                    Share photos and media
+                    {t('howItWorks.step4Point3')}
                   </li>
                 </ul>
               </div>
@@ -201,22 +200,22 @@ export const HowItWorksPage = () => {
       <section className="py-16 md:py-20 bg-primary">
         <Container>
           <div className="max-w-3xl mx-auto text-center text-white">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Get Started?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('howItWorks.readyToStart')}</h2>
             <p className="text-xl text-white mb-8">
-              The Dilkor app is coming soon! Stay tuned for the launch.
+              {t('howItWorks.readyToStartDesc')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
                 to="/download"
                 className="bg-white text-primary px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl inline-block transform hover:scale-105"
               >
-                Coming Soon
+                {t('common.comingSoon')}
               </Link>
               <Link 
                 to="/features"
                 className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-primary transition-all inline-block transform hover:scale-105"
               >
-                View Features
+                {t('download.exploreFeatures')}
               </Link>
             </div>
           </div>

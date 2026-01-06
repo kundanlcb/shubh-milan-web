@@ -1,67 +1,70 @@
+import { useTranslation } from 'react-i18next';
 import { Container } from '../components/ui/Container';
 
 export const ContactPage = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="py-12 md:py-20">
       <Container maxWidth="lg">
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Contact Us</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">{t('contact.title')}</h1>
             <p className="text-lg text-gray-600">
-              Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+              {t('contact.description')}
             </p>
           </div>
 
           <form className="bg-white rounded-xl shadow-lg p-8 space-y-6">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                Full Name
+                {t('contact.name')}
               </label>
               <input
                 type="text"
                 id="name"
                 name="name"
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all outline-none"
-                placeholder="Enter your name"
+                placeholder={t('contact.namePlaceholder')}
               />
             </div>
 
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                Email Address
+                {t('contact.email')}
               </label>
               <input
                 type="email"
                 id="email"
                 name="email"
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all outline-none"
-                placeholder="your.email@example.com"
+                placeholder={t('contact.emailPlaceholder')}
               />
             </div>
 
             <div>
               <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                Subject
+                {t('contact.subject')}
               </label>
               <input
                 type="text"
                 id="subject"
                 name="subject"
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all outline-none"
-                placeholder="What is this regarding?"
+                placeholder={t('contact.subjectPlaceholder')}
               />
             </div>
 
             <div>
               <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                Message
+                {t('contact.message')}
               </label>
               <textarea
                 id="message"
                 name="message"
                 rows={5}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all outline-none resize-none"
-                placeholder="Tell us more about your inquiry..."
+                placeholder={t('contact.messagePlaceholder')}
               ></textarea>
             </div>
 
@@ -69,7 +72,7 @@ export const ContactPage = () => {
               type="submit"
               className="w-full bg-primary text-white py-3 px-6 rounded-lg font-semibold hover:opacity-80 transition-colors shadow-md hover:shadow-lg"
             >
-              Send Message
+              {t('contact.send')}
             </button>
           </form>
 
@@ -80,7 +83,7 @@ export const ContactPage = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
+              <h3 className="font-semibold text-gray-900 mb-1">{t('common.email')}</h3>
               <p className="text-gray-600 text-sm">contact@dilkor.com</p>
             </div>
 
@@ -90,7 +93,7 @@ export const ContactPage = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
               </div>
-              <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
+              <h3 className="font-semibold text-gray-900 mb-1">{t('common.phone')}</h3>
               <p className="text-gray-600 text-sm">+91 1234567890</p>
             </div>
 
@@ -101,7 +104,7 @@ export const ContactPage = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
               </div>
-              <h3 className="font-semibold text-gray-900 mb-1">Address</h3>
+              <h3 className="font-semibold text-gray-900 mb-1">{t('common.address')}</h3>
               <p className="text-gray-600 text-sm">Mumbai, India</p>
             </div>
           </div>
