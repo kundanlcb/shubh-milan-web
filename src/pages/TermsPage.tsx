@@ -23,7 +23,7 @@ export const TermsPage = () => {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <div className="mb-12">
               <p className="text-gray-600 text-lg">
-                Welcome to Shubh Milan. By accessing or using our mobile application and services, you agree to 
+                Welcome to Dilkor. By accessing or using our mobile application and services, you agree to
                 be bound by these Terms and Conditions. Please read them carefully.
               </p>
             </div>
@@ -33,8 +33,8 @@ export const TermsPage = () => {
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Acceptance of Terms</h2>
                 <div className="text-gray-600 space-y-4">
                   <p>
-                    By creating an account or using Shubh Milan, you acknowledge that you have read, understood, 
-                    and agree to be bound by these Terms and Conditions, as well as our Privacy Policy. If you 
+                    By creating an account or using Dilkor, you acknowledge that you have read, understood,
+                    and agree to be bound by these Terms and Conditions, as well as our Privacy Policy. If you
                     do not agree, please do not use our services.
                   </p>
                 </div>
@@ -43,7 +43,7 @@ export const TermsPage = () => {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Eligibility</h2>
                 <div className="text-gray-600 space-y-4">
-                  <p>To use Shubh Milan, you must:</p>
+                  <p>To use Dilkor, you must:</p>
                   <ul className="list-disc pl-6 space-y-2">
                     <li>Be at least 18 years of age</li>
                     <li>Be legally eligible to marry under the laws of your jurisdiction</li>
@@ -89,12 +89,12 @@ export const TermsPage = () => {
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Content and Intellectual Property</h2>
                 <div className="text-gray-600 space-y-4">
                   <p>
-                    You retain ownership of the content you post, but grant Shubh Milan a license to use, display, 
+                    You retain ownership of the content you post, but grant Dilkor a license to use, display,
                     and distribute it for the purpose of operating and promoting our services.
                   </p>
                   <p>
                     All platform content, including but not limited to text, graphics, logos, software, and design, 
-                    is the property of Shubh Milan and protected by intellectual property laws.
+                    is the property of Dilkor and protected by intellectual property laws.
                   </p>
                 </div>
               </section>
@@ -117,8 +117,8 @@ export const TermsPage = () => {
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Privacy and Data Protection</h2>
                 <div className="text-gray-600 space-y-4">
                   <p>
-                    Your use of Shubh Milan is also governed by our Privacy Policy. We collect, use, and protect 
-                    your personal information as described in our Privacy Policy. By using our services, you 
+                    Your use of Dilkor is also governed by our Privacy Policy. We collect, use, and protect
+                    your personal information as described in our Privacy Policy. By using our services, you
                     consent to such processing.
                   </p>
                 </div>
@@ -158,7 +158,7 @@ export const TermsPage = () => {
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">10. Disclaimers and Limitations</h2>
                 <div className="text-gray-600 space-y-4">
                   <p>
-                    Shubh Milan is provided "as is" without warranties of any kind. We do not guarantee:
+                    Dilkor is provided "as is" without warranties of any kind. We do not guarantee:
                   </p>
                   <ul className="list-disc pl-6 space-y-2">
                     <li>That you will find a suitable match</li>
@@ -177,8 +177,8 @@ export const TermsPage = () => {
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">11. Indemnification</h2>
                 <div className="text-gray-600 space-y-4">
                   <p>
-                    You agree to indemnify and hold Shubh Milan harmless from any claims, damages, or expenses 
-                    arising from your use of the service, violation of these terms, or infringement of any 
+                    You agree to indemnify and hold Dilkor harmless from any claims, damages, or expenses
+                    arising from your use of the service, violation of these terms, or infringement of any
                     third-party rights.
                   </p>
                 </div>
@@ -211,9 +211,9 @@ export const TermsPage = () => {
                     For questions about these Terms and Conditions, please contact us:
                   </p>
                   <ul className="list-none space-y-2 mt-4">
-                    <li><strong>Email:</strong> legal@shubhmilan.com</li>
+                    <li><strong>Email:</strong> legal@dilkor.com</li>
                     <li><strong>Phone:</strong> +91 1234567890</li>
-                    <li><strong>Address:</strong> Shubh Milan, Mumbai, India</li>
+                    <li><strong>Address:</strong> Dilkor, Mumbai, India</li>
                   </ul>
                 </div>
               </section>
@@ -221,7 +221,7 @@ export const TermsPage = () => {
 
             <div className="mt-12 p-6 bg-primary rounded-xl">
               <p className="text-gray-700">
-                <strong>By using Shubh Milan, you acknowledge that you have read, understood, and agree to be 
+                <strong>By using Dilkor, you acknowledge that you have read, understood, and agree to be
                 bound by these Terms and Conditions.</strong>
               </p>
             </div>

@@ -9,12 +9,12 @@ export const FAQPage = () => {
       category: "Getting Started",
       questions: [
         {
-          q: "How do I create an account on Shubh Milan?",
-          a: "Download the Shubh Milan app from Google Play Store or Apple App Store. Sign up using your email or phone number, verify your account, and complete your profile with accurate information."
+          q: "How do I create an account on Dilkor?",
+          a: "Download the Dilkor app from Google Play Store or Apple App Store. Sign up using your email or phone number, verify your account, and complete your profile with accurate information."
         },
         {
-          q: "Is Shubh Milan free to use?",
-          a: "Yes, Shubh Milan offers a free basic membership that allows you to create a profile, browse matches, and send limited messages. Premium features are available through subscription plans."
+          q: "Is Dilkor free to use?",
+          a: "Yes, Dilkor offers a free basic membership that allows you to create a profile, browse matches, and send limited messages. Premium features are available through subscription plans."
         },
         {
           q: "How long does profile verification take?",
@@ -85,7 +85,7 @@ export const FAQPage = () => {
           a: "You can report any profile by clicking the 'Report' option on their profile page. Our team will investigate and take appropriate action within 24 hours."
         },
         {
-          q: "Can I use Shubh Milan on multiple devices?",
+          q: "Can I use Dilkor on multiple devices?",
           a: "Yes, you can log in to your account on multiple devices. Your data syncs automatically across all devices."
         }
       ]
@@ -107,7 +107,7 @@ export const FAQPage = () => {
               Frequently Asked <span className="text-primary">Questions</span>
             </h1>
             <p className="text-lg text-gray-600">
-              Find answers to common questions about Shubh Milan
+              Find answers to common questions about Dilkor
             </p>
           </div>
         </Container>
@@ -184,7 +184,7 @@ export const FAQPage = () => {
                 Contact Support
               </a>
               <a 
-                href="mailto:support@shubhmilan.com"
+                href="mailto:support@dilkor.com"
                 className="bg-white text-primary border-2 border-primary px-8 py-4 rounded-xl font-semibold hover:opacity-80 transition-all inline-block"
               >
                 Email Us

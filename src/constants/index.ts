@@ -9,14 +9,14 @@ export const BREAKPOINTS = {
 } as const;
 
 // App metadata
-export const APP_NAME = 'Shubh Milan';
-export const APP_TAGLINE = 'शुभ मिलन - Find Your Perfect Match';
+export const APP_NAME = 'Dilkor';
+export const APP_TAGLINE = 'दिलकोर - Find Your Perfect Match';
 export const APP_DESCRIPTION = 'Your trusted platform for finding meaningful connections and building lasting relationships.';
 
 // App download links (placeholder URLs - update with actual links)
 export const APP_LINKS = {
-  android: 'https://play.google.com/store/apps/details?id=com.shubhmilan',
-  ios: 'https://apps.apple.com/app/shubh-milan/id123456789',
+  android: 'https://play.google.com/store/apps/details?id=com.dilkor',
+  ios: 'https://apps.apple.com/app/dilkor/id123456789',
 } as const;
 
 // Navigation links

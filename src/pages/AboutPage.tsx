@@ -8,10 +8,10 @@ export const AboutPage = () => {
         <Container>
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              About <span className="text-primary">Shubh Milan</span>
+              About <span className="text-primary">Dilkor</span>
             </h1>
             <p className="text-xl font-hindi text-primary mb-6">
-              शुभ मिलन - जहां दिल मिलते हैं
+              दिलकोर - जहां दिल मिलते हैं
             </p>
             <p className="text-lg text-gray-600">
               More than just a matchmaking platform – we're a community dedicated to helping 
@@ -29,8 +29,8 @@ export const AboutPage = () => {
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Mission</h2>
                 <p className="text-gray-600 mb-4">
-                  At Shubh Milan, we believe that everyone deserves to find their perfect match. Our mission 
-                  is to create a safe, secure, and user-friendly platform that brings people together based 
+                  At Dilkor, we believe that everyone deserves to find their perfect match. Our mission
+                  is to create a safe, secure, and user-friendly platform that brings people together based
                   on shared values, interests, and compatibility.
                 </p>
                 <p className="text-gray-600">
@@ -133,15 +133,15 @@ export const AboutPage = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-600 mb-4">
-                Founded with the vision of modernizing traditional matchmaking, Shubh Milan was born from the 
-                understanding that finding a life partner is one of the most important decisions in one's life. 
+                Founded with the vision of modernizing traditional matchmaking, Dilkor was born from the
+                understanding that finding a life partner is one of the most important decisions in one's life.
                 We recognized the need for a platform that respects cultural values while leveraging modern 
                 technology to make the process more efficient and enjoyable.
               </p>
               <p className="text-gray-600 mb-4">
                 Our journey began with a simple idea: to create a safe space where individuals and families 
-                could connect based on compatibility, shared values, and mutual respect. Today, Shubh Milan 
-                has grown into a trusted community of thousands of users across India, helping people find 
+                could connect based on compatibility, shared values, and mutual respect. Today, Dilkor
+                has grown into a trusted community of thousands of users across India, helping people find
                 their perfect match.
               </p>
               <p className="text-gray-600">
@@ -167,7 +167,7 @@ export const AboutPage = () => {
                 href="/download"
                 className="bg-white text-primary px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl inline-block transform hover:scale-105"
               >
-                Download the App
+                App Coming Soon
               </a>
               <a 
                 href="/contact"

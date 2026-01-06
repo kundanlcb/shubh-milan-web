@@ -7,7 +7,7 @@ export const SuccessStoriesPage = () => {
       names: "Priya & Raj",
       location: "Mumbai, Maharashtra",
       date: "Married in December 2024",
-      story: "We matched on Shubh Milan in January 2024, and from our very first conversation, we knew there was something special. The platform's detailed profiles helped us understand each other's values and aspirations before we even met. Six months later, we're happily married!",
+      story: "We matched on Dilkor in January 2024, and from our very first conversation, we knew there was something special. The platform's detailed profiles helped us understand each other's values and aspirations before we even met. Six months later, we're happily married!",
       image: "👫"
     },
     {
@@ -15,7 +15,7 @@ export const SuccessStoriesPage = () => {
       names: "Anjali & Vikram",
       location: "Delhi NCR",
       date: "Married in November 2024",
-      story: "After trying several matrimonial platforms, Shubh Milan stood out with its focus on compatibility and genuine profiles. We connected through shared interests in travel and photography. The social media features helped us share our moments and get to know each other better despite being in different cities.",
+      story: "After trying several matrimonial platforms, Dilkor stood out with its focus on compatibility and genuine profiles. We connected through shared interests in travel and photography. The social media features helped us share our moments and get to know each other better despite being in different cities.",
       image: "💑"
     },
     {
@@ -23,7 +23,7 @@ export const SuccessStoriesPage = () => {
       names: "Neha & Aditya",
       location: "Bangalore, Karnataka",
       date: "Married in October 2024",
-      story: "As working professionals, we appreciated Shubh Milan's efficient matching algorithm that saved us time. Within weeks, we found each other, and the rest is history. The platform made it easy to connect with someone who truly understood our lifestyle and values.",
+      story: "As working professionals, we appreciated Dilkor's efficient matching algorithm that saved us time. Within weeks, we found each other, and the rest is history. The platform made it easy to connect with someone who truly understood our lifestyle and values.",
       image: "👩‍❤️‍👨"
     },
     {
@@ -31,7 +31,7 @@ export const SuccessStoriesPage = () => {
       names: "Kavita & Rohit",
       location: "Pune, Maharashtra",
       date: "Married in September 2024",
-      story: "We were both looking for partners from our community, and Shubh Milan's advanced filters made it easy to find compatible matches. The verification process gave us confidence that profiles were genuine. Thank you Shubh Milan for bringing us together!",
+      story: "We were both looking for partners from our community, and Dilkor's advanced filters made it easy to find compatible matches. The verification process gave us confidence that profiles were genuine. Thank you Dilkor for bringing us together!",
       image: "💕"
     },
     {
@@ -39,7 +39,7 @@ export const SuccessStoriesPage = () => {
       names: "Sneha & Karthik",
       location: "Chennai, Tamil Nadu",
       date: "Married in August 2024",
-      story: "Long-distance relationships can be challenging, but Shubh Milan's secure messaging and social media features made it easier for us to stay connected and share our daily moments. We're grateful for this platform that prioritizes safety and privacy while helping people find love.",
+      story: "Long-distance relationships can be challenging, but Dilkor's secure messaging and social media features made it easier for us to stay connected and share our daily moments. We're grateful for this platform that prioritizes safety and privacy while helping people find love.",
       image: "❤️"
     },
     {
@@ -47,7 +47,7 @@ export const SuccessStoriesPage = () => {
       names: "Pooja & Amit",
       location: "Hyderabad, Telangana",
       date: "Married in July 2024",
-      story: "Traditional values meet modern technology - that's what Shubh Milan represents for us. Our families were involved in the process, and the platform's family-friendly approach made everything smooth. We couldn't have asked for a better matchmaking experience.",
+      story: "Traditional values meet modern technology - that's what Dilkor represents for us. Our families were involved in the process, and the platform's family-friendly approach made everything smooth. We couldn't have asked for a better matchmaking experience.",
       image: "💝"
     },
   ];
@@ -65,7 +65,7 @@ export const SuccessStoriesPage = () => {
               प्यार की कहानियाँ
             </p>
             <p className="text-lg text-gray-600">
-              Real couples, real stories, real happiness. Read how Shubh Milan helped thousands find their perfect match.
+              Real couples, real stories, real happiness. Read how Dilkor helped thousands find their perfect match.
             </p>
           </div>
         </Container>
@@ -180,13 +180,13 @@ export const SuccessStoriesPage = () => {
           <div className="max-w-3xl mx-auto text-center text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Write Your Own Success Story</h2>
             <p className="text-xl text-primary mb-8">
-              Join thousands of happy couples who found their perfect match on Shubh Milan
+              Join thousands of happy couples who found their perfect match on Dilkor
             </p>
             <a 
               href="/download"
               className="bg-white text-primary px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl inline-block"
             >
-              Download the App
+              App Coming Soon
             </a>
           </div>
         </Container>

@@ -7,7 +7,7 @@ export const FeaturesPage = () => {
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Features</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Discover all the powerful features that make Shubh Milan the best choice for finding your perfect match.
+            Discover all the powerful features that make Dilkor the best choice for finding your perfect match.
           </p>
         </div>
 

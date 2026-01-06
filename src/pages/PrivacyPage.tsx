@@ -23,7 +23,7 @@ export const PrivacyPage = () => {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <div className="mb-12">
               <p className="text-gray-600 text-lg">
-                At Shubh Milan, we take your privacy seriously. This Privacy Policy explains how we collect, use, 
+                At Dilkor, we take your privacy seriously. This Privacy Policy explains how we collect, use,
                 disclose, and safeguard your information when you use our mobile application and services.
               </p>
             </div>
@@ -135,8 +135,8 @@ export const PrivacyPage = () => {
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Children's Privacy</h2>
                 <div className="text-gray-600">
                   <p>
-                    Shubh Milan is not intended for users under 18 years of age. We do not knowingly collect 
-                    information from children. If we become aware that a child has provided us with personal 
+                    Dilkor is not intended for users under 18 years of age. We do not knowingly collect
+                    information from children. If we become aware that a child has provided us with personal
                     information, we will delete it immediately.
                   </p>
                 </div>
@@ -171,9 +171,9 @@ export const PrivacyPage = () => {
                     If you have any questions about this Privacy Policy or our privacy practices, please contact us:
                   </p>
                   <ul className="list-none space-y-2 mt-4">
-                    <li><strong>Email:</strong> privacy@shubhmilan.com</li>
+                    <li><strong>Email:</strong> privacy@dilkor.com</li>
                     <li><strong>Phone:</strong> +91 1234567890</li>
-                    <li><strong>Address:</strong> Shubh Milan, Mumbai, India</li>
+                    <li><strong>Address:</strong> Dilkor, Mumbai, India</li>
                   </ul>
                 </div>
               </section>

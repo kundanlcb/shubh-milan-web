@@ -1,5 +1,4 @@
 import { Container } from '../components/ui/Container';
-import { APP_LINKS } from '@/constants';
 
 export const DownloadPage = () => {
   return (
@@ -9,55 +8,54 @@ export const DownloadPage = () => {
         <Container>
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Download <span className="text-primary">Shubh Milan</span>
+              <span className="text-primary">Dilkor</span> App
             </h1>
             <p className="text-xl font-hindi text-primary mb-6">
               अपना जीवनसाथी खोजें
             </p>
+
+            {/* Coming Soon Banner */}
+            <div className="bg-gradient-to-r from-primary to-pink-500 text-white py-4 px-8 rounded-2xl mb-8 inline-block">
+              <p className="text-2xl font-bold">🚀 Coming Soon!</p>
+              <p className="text-sm mt-1">Our mobile apps are under development</p>
+            </div>
+
             <p className="text-lg text-gray-600 mb-12">
-              Get the Shubh Milan app on your mobile device and start your journey to finding your perfect match today.
+              We're working hard to bring you the best matchmaking experience on mobile. Stay tuned for the launch!
             </p>
 
-            {/* Download Buttons */}
+            {/* Coming Soon Buttons */}
             <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
-              <a 
-                href={APP_LINKS.android}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center bg-gray-900 text-white px-10 py-5 rounded-2xl font-semibold hover:bg-gray-800 transition-all shadow-xl hover:shadow-2xl transform hover:scale-105"
-              >
+              <div className="inline-flex items-center justify-center bg-gray-300 text-gray-600 px-10 py-5 rounded-2xl font-semibold cursor-not-allowed">
                 <svg className="w-8 h-8 mr-4" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M17.523 15.341c-.538-.586-.824-1.347-.824-2.19 0-.843.286-1.604.824-2.19.538-.586 1.259-.903 2.082-.903.824 0 1.544.317 2.082.903.538.586.824 1.347.824 2.19 0 .843-.286 1.604-.824 2.19-.538.586-1.258.903-2.082.903-.823 0-1.544-.317-2.082-.903zM12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"/>
                 </svg>
                 <div className="text-left">
-                  <div className="text-sm">GET IT ON</div>
+                  <div className="text-sm">COMING SOON</div>
                   <div className="text-2xl font-bold">Google Play</div>
                 </div>
-              </a>
-              <a 
-                href={APP_LINKS.ios}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center bg-gray-900 text-white px-10 py-5 rounded-2xl font-semibold hover:bg-gray-800 transition-all shadow-xl hover:shadow-2xl transform hover:scale-105"
-              >
+              </div>
+              <div className="inline-flex items-center justify-center bg-gray-300 text-gray-600 px-10 py-5 rounded-2xl font-semibold cursor-not-allowed">
                 <svg className="w-8 h-8 mr-4" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                 </svg>
                 <div className="text-left">
-                  <div className="text-sm">Download on the</div>
+                  <div className="text-sm">COMING SOON</div>
                   <div className="text-2xl font-bold">App Store</div>
                 </div>
-              </a>
+              </div>
             </div>
 
-            {/* QR Code Placeholder */}
-            <div className="inline-block bg-white p-8 rounded-2xl shadow-lg">
-              <p className="text-sm text-gray-600 mb-4">Scan to download</p>
-              <div className="w-48 h-48 bg-gray-200 rounded-lg flex items-center justify-center">
-                <svg className="w-24 h-24 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
-                </svg>
-              </div>
+            {/* Notification Signup */}
+            <div className="inline-block bg-gray-50 p-8 rounded-2xl shadow-lg">
+              <p className="text-lg text-gray-700 mb-4 font-semibold">Get notified when we launch!</p>
+              <p className="text-sm text-gray-600 mb-4">Contact us to stay updated on the app release.</p>
+              <a
+                href="/contact"
+                className="bg-primary text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-all inline-block"
+              >
+                Contact Us
+              </a>
             </div>
           </div>
         </Container>
@@ -70,7 +68,7 @@ export const DownloadPage = () => {
             What You'll Get
           </h2>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            The Shubh Milan app comes packed with features to make your matchmaking journey smooth and enjoyable
+            The Dilkor app comes packed with features to make your matchmaking journey smooth and enjoyable
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="flex items-start">
@@ -234,32 +232,28 @@ export const DownloadPage = () => {
       <section className="py-16 md:py-20 bg-primary">
         <Container>
           <div className="max-w-3xl mx-auto text-center text-white">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Start Your Journey Today</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Stay Updated!</h2>
             <p className="text-xl text-white mb-8">
-              Join thousands of people who have found their perfect match on Shubh Milan
+              Be the first to know when the Dilkor app launches. Contact us to get notified!
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <a 
-                href={APP_LINKS.android}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center bg-white text-gray-900 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl"
+                href="/contact"
+                className="inline-flex items-center justify-center bg-white text-primary px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl"
               >
-                <svg className="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M17.523 15.341c-.538-.586-.824-1.347-.824-2.19 0-.843.286-1.604.824-2.19.538-.586 1.259-.903 2.082-.903.824 0 1.544.317 2.082.903.538.586.824 1.347.824 2.19 0 .843-.286 1.604-.824 2.19-.538.586-1.258.903-2.082.903-.823 0-1.544-.317-2.082-.903zM12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"/>
+                <svg className="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                Download for Android
+                Contact Us
               </a>
               <a 
-                href={APP_LINKS.ios}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center bg-white text-gray-900 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl"
+                href="/features"
+                className="inline-flex items-center justify-center bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-primary transition-all"
               >
-                <svg className="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                <svg className="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
-                Download for iOS
+                Explore Features
               </a>
             </div>
           </div>

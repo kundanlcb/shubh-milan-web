@@ -12,7 +12,7 @@ export const HowItWorksPage = () => {
               How It <span className="text-primary">Works</span>
             </h1>
             <p className="text-lg text-gray-600">
-              Finding your perfect match is just a few simple steps away. Here's how Shubh Milan works.
+              Finding your perfect match is just a few simple steps away. Here's how Dilkor works.
             </p>
           </div>
         </Container>
@@ -32,7 +32,7 @@ export const HowItWorksPage = () => {
                   <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Download & Sign Up</h2>
                 </div>
                 <p className="text-gray-600 mb-4">
-                  Download the Shubh Milan app from Google Play Store or Apple App Store. Create your account 
+                  Download the Dilkor app from Google Play Store or Apple App Store. Create your account
                   with your email or phone number and verify your identity.
                 </p>
                 <ul className="space-y-2 text-gray-600">
@@ -203,14 +203,14 @@ export const HowItWorksPage = () => {
           <div className="max-w-3xl mx-auto text-center text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Get Started?</h2>
             <p className="text-xl text-white mb-8">
-              Download the Shubh Milan app today and begin your journey to finding your perfect match.
+              The Dilkor app is coming soon! Stay tuned for the launch.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
                 to="/download"
                 className="bg-white text-primary px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl inline-block transform hover:scale-105"
               >
-                Download Now
+                Coming Soon
               </Link>
               <Link 
                 to="/features"

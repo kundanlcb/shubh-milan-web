@@ -81,7 +81,7 @@ export const ContactPage = () => {
                 </svg>
               </div>
               <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
-              <p className="text-gray-600 text-sm">contact@shubhmilan.com</p>
+              <p className="text-gray-600 text-sm">contact@dilkor.com</p>
             </div>
 
             <div className="p-6">

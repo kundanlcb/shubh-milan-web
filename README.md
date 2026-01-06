@@ -1,15 +1,15 @@
-# Shubh Milan - Informational Website
+# Dilkor - Informational Website
 
-A beautiful, fully responsive informational website for Shubh Milan matrimonial platform. Built with React, TypeScript, and Vite, this static website represents the Shubh Milan brand and provides download links to our Android and iOS mobile applications.
+A beautiful, fully responsive informational website for Dilkor matrimonial platform. Built with React, TypeScript, and Vite, this static website represents the Dilkor brand and provides download links to our Android and iOS mobile applications.
 
-**🌐 Live Demo**: [https://kundanlcb.github.io/shubh-milan-web/](https://kundanlcb.github.io/shubh-milan-web/)
+**🌐 Live Demo**: [https://kundanlcb.github.io/dilkor-web/](https://kundanlcb.github.io/dilkor-web/)
 
 ## 🚀 Quick Start - GitHub Pages Deployment
 
 This website is configured for automatic deployment to GitHub Pages. Follow these steps to enable it:
 
 ### 1. Enable GitHub Pages in Repository Settings
-1. Go to your repository on GitHub: `https://github.com/kundanlcb/shubh-milan-web`
+1. Go to your repository on GitHub: `https://github.com/kundanlcb/dilkor-web`
 2. Click on **Settings** tab
 3. In the left sidebar, click **Pages**
 4. Under **Source**, select **GitHub Actions**
@@ -26,7 +26,7 @@ The workflow will:
 - Install dependencies
 - Build the production bundle
 - Deploy to GitHub Pages
-- Make the site available at: `https://kundanlcb.github.io/shubh-milan-web/`
+- Make the site available at: `https://kundanlcb.github.io/dilkor-web/`
 
 ### 3. Monitor Deployment
 - Go to the **Actions** tab in your repository
@@ -36,7 +36,7 @@ The workflow will:
 ## 🎯 Purpose
 
 This is an **information-only website** designed to:
-- Showcase the Shubh Milan matrimonial platform
+- Showcase the Dilkor matrimonial platform
 - Provide comprehensive information about our services
 - Direct users to download our mobile applications
 - Build trust through success stories and testimonials
@@ -51,7 +51,7 @@ This is an **information-only website** designed to:
 - **Home** - Hero section with app download CTAs, key features, and statistics
 - **About** - Mission, values, story, and company information
 - **Features** - Detailed feature descriptions of the mobile app
-- **How It Works** - Step-by-step guide to using Shubh Milan
+- **How It Works** - Step-by-step guide to using Dilkor
 - **Download** - Prominent Android/iOS download links and system requirements
 - **Success Stories** - Real testimonials from happy couples
 - **FAQ** - Comprehensive answers to common questions
@@ -81,8 +81,8 @@ This is an **information-only website** designed to:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/kundanlcb/shubh-milan-web.git
-cd shubh-milan-web
+git clone https://github.com/kundanlcb/dilkor-web.git
+cd dilkor-web
 ```
 
 2. Install dependencies:
@@ -211,7 +211,7 @@ This website is configured for automatic deployment to GitHub Pages.
 
 The website is automatically deployed to GitHub Pages when changes are pushed to the `main` branch.
 
-**Live URL**: `https://kundanlcb.github.io/shubh-milan-web/`
+**Live URL**: `https://kundanlcb.github.io/dilkor-web/`
 
 **Setup Instructions**:
 1. Ensure GitHub Pages is enabled in your repository settings
@@ -245,23 +245,23 @@ npm run build
 
 ## 📱 Mobile Apps
 
-The actual Shubh Milan matchmaking functionality is available through our mobile applications:
+The actual Dilkor matchmaking functionality is available through our mobile applications:
 
 - **Android**: [Google Play Store Link]
 - **iOS**: [Apple App Store Link]
 
 ## 🤝 Contributing
 
-This is an informational website for the Shubh Milan platform. For feature requests or bug reports, please contact the development team.
+This is an informational website for the Dilkor platform. For feature requests or bug reports, please contact the development team.
 
 ## 📄 License
 
-Proprietary - All rights reserved by Shubh Milan
+Proprietary - All rights reserved by Dilkor
 
 ## 📞 Contact
 
 For support or inquiries:
-- Email: contact@shubhmilan.com
+- Email: contact@dilkor.com
 - Phone: +91 1234567890
 - Website: [Production URL]
 
