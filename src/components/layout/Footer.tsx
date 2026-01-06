@@ -1,9 +1,28 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { Container } from '../ui/Container';
-import { FOOTER_LINKS } from '@/constants';
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const { t } = useTranslation();
+
+  const companyLinks = [
+    { path: '/about', label: t('nav.about') },
+    { path: '/features', label: t('nav.features') },
+    { path: '/how-it-works', label: t('nav.howItWorks') },
+    { path: '/success-stories', label: t('nav.successStories') },
+  ];
+
+  const supportLinks = [
+    { path: '/faq', label: t('nav.faq') },
+    { path: '/contact', label: t('nav.contact') },
+    { path: '/download', label: t('nav.download') },
+  ];
+
+  const legalLinks = [
+    { path: '/privacy', label: t('nav.privacy') },
+    { path: '/terms', label: t('nav.terms') },
+  ];
 
   return (
     <footer className="bg-primary text-white mt-auto">
@@ -16,21 +35,18 @@ export const Footer = () => {
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
                 </svg>
-                <h3 className="text-xl font-bold">Dilkor</h3>
+                <h3 className="text-xl font-bold">{t('common.appName')}</h3>
               </div>
               <p className="text-white text-sm mb-4">
-                Connecting hearts, building relationships.
-              </p>
-              <p className="text-white text-sm font-hindi">
-                दिलकोर - आपका विश्वसनीय साथी
+                {t('footer.description')}
               </p>
             </div>
 
             {/* Company Links */}
             <div>
-              <h4 className="text-lg font-semibold mb-4 text-white">Company</h4>
+              <h4 className="text-lg font-semibold mb-4 text-white">{t('footer.quickLinks')}</h4>
               <ul className="space-y-2 text-sm">
-                {FOOTER_LINKS.company.map((link) => (
+                {companyLinks.map((link) => (
                   <li key={link.path}>
                     <Link to={link.path} className="text-white hover:opacity-80 transition-colors">
                       {link.label}
@@ -42,9 +58,9 @@ export const Footer = () => {
 
             {/* Support Links */}
             <div>
-              <h4 className="text-lg font-semibold mb-4 text-white">Support</h4>
+              <h4 className="text-lg font-semibold mb-4 text-white">{t('nav.contact')}</h4>
               <ul className="space-y-2 text-sm">
-                {FOOTER_LINKS.support.map((link) => (
+                {supportLinks.map((link) => (
                   <li key={link.path}>
                     <Link to={link.path} className="text-white hover:opacity-80 transition-colors">
                       {link.label}
@@ -56,9 +72,9 @@ export const Footer = () => {
 
             {/* Legal & Social */}
             <div>
-              <h4 className="text-lg font-semibold mb-4 text-white">Legal</h4>
+              <h4 className="text-lg font-semibold mb-4 text-white">{t('footer.legal')}</h4>
               <ul className="space-y-2 text-sm mb-6">
-                {FOOTER_LINKS.legal.map((link) => (
+                {legalLinks.map((link) => (
                   <li key={link.path}>
                     <Link to={link.path} className="text-white hover:opacity-80 transition-colors">
                       {link.label}
@@ -67,7 +83,7 @@ export const Footer = () => {
                 ))}
               </ul>
               
-              <h4 className="text-lg font-semibold mb-4 text-white">Follow Us</h4>
+              <h4 className="text-lg font-semibold mb-4 text-white">{t('footer.followUs')}</h4>
               <div className="flex space-x-4">
                 <a 
                   href="#" 
@@ -102,7 +118,7 @@ export const Footer = () => {
 
           {/* Bottom Bar */}
           <div className="border-t border-white mt-8 pt-8 text-center text-sm text-white">
-            <p>&copy; {currentYear} Dilkor. All rights reserved.</p>
+            <p>&copy; {currentYear} {t('common.appName')}. {t('footer.allRightsReserved')}.</p>
           </div>
         </div>
       </Container>

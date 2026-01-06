@@ -1,0 +1,136 @@
+{
+  "common": {
+    "appName": "Dilkor",
+    "tagline": "Connect Hearts, Build Relationships",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "downloadApp": "Download App",
+    "comingSoon": "Coming Soon",
+    "contactUs": "Contact Us",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "download": "Download",
+    "successStories": "Success Stories",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  },
+  "home": {
+    "heroTitle": "Find Your Life Partner",
+    "heroSubtitle": "Build Trusted Relationships on Dilkor",
+    "heroDescription": "Find your perfect match on India's most trusted matrimonial platform. Our AI-powered matching connects you with your dream partner.",
+    "whyChooseUs": "Why Choose Dilkor?",
+    "verifiedProfiles": "Verified Profiles",
+    "verifiedProfilesDesc": "All profiles are verified by our team",
+    "secureMessaging": "Secure Messaging",
+    "secureMessagingDesc": "Your conversations are completely secure",
+    "smartMatching": "Smart Matching",
+    "smartMatchingDesc": "AI-powered algorithms for better compatibility",
+    "familyInvolvement": "Family Involvement",
+    "familyInvolvementDesc": "Family members can also manage profiles",
+    "joinCommunity": "Join Our Community",
+    "happyCouples": "Happy Couples",
+    "activeUsers": "Active Users",
+    "citiesCovered": "Cities"
+  },
+  "about": {
+    "title": "About Dilkor",
+    "subtitle": "Dilkor - Where Hearts Meet",
+    "description": "More than just a matchmaking platform – we're a community dedicated to helping people find meaningful connections and build lasting relationships.",
+    "ourMission": "Our Mission",
+    "missionDescription": "At Dilkor, we believe that everyone deserves to find their perfect match.",
+    "ourValues": "Our Core Values",
+    "trust": "Trust",
+    "privacy": "Privacy",
+    "authenticity": "Authenticity"
+  },
+  "features": {
+    "title": "Features",
+    "subtitle": "Features that make your matchmaking journey smooth",
+    "verifiedProfiles": "Verified Profiles",
+    "verifiedProfilesDesc": "All profiles are thoroughly verified by our team",
+    "smartMatching": "Smart Matching",
+    "smartMatchingDesc": "AI-powered algorithms for better compatibility",
+    "secureMessaging": "Secure Messaging",
+    "secureMessagingDesc": "End-to-end encrypted messages and calls",
+    "privacyControls": "Privacy Controls",
+    "privacyControlsDesc": "Complete control over who sees your profile",
+    "postsStories": "Posts & Stories",
+    "postsStoriesDesc": "Connect through social media features",
+    "support": "24/7 Support",
+    "supportDesc": "Always here to help you on your journey"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Simple steps to find your perfect match",
+    "step1Title": "Create Profile",
+    "step1Desc": "Sign up with your details and preferences",
+    "step2Title": "Find Matches",
+    "step2Desc": "Browse compatible profiles and send interests",
+    "step3Title": "Connect",
+    "step3Desc": "Chat securely with your matches",
+    "step4Title": "Meet",
+    "step4Desc": "Take your relationship to the next level"
+  },
+  "download": {
+    "title": "Dilkor App",
+    "subtitle": "Find Your Life Partner",
+    "comingSoonBanner": "Coming Soon!",
+    "comingSoonDesc": "Our mobile apps are under development",
+    "description": "We're working hard to bring you the best matchmaking experience on mobile.",
+    "getNotified": "Get notified when we launch!",
+    "googlePlay": "Google Play",
+    "appStore": "App Store",
+    "whatYouGet": "What You'll Get"
+  },
+  "successStories": {
+    "title": "Success Stories",
+    "subtitle": "Love Stories",
+    "description": "Real couples, real stories, real happiness. Read how Dilkor helped thousands find their perfect match.",
+    "writeYourStory": "Write Your Own Success Story",
+    "joinMessage": "Join thousands of happy couples who found their perfect match on Dilkor"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about Dilkor",
+    "stillHaveQuestions": "Still Have Questions?",
+    "contactSupport": "Contact Support",
+    "emailUs": "Email Us"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in Touch",
+    "description": "Have a question? We're here to help.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "getInTouch": "Get in Touch"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: December 2024",
+    "questionsAboutPrivacy": "Questions About Privacy?"
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "Last updated: December 2024",
+    "haveQuestions": "Have Questions?"
+  },
+  "footer": {
+    "description": "Your trusted partner in finding meaningful connections and building lasting relationships.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "followUs": "Follow Us",
+    "allRightsReserved": "All rights reserved"
+  }
+}
+
