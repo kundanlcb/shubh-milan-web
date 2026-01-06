@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Container } from '../components/ui/Container';
 
 export const DownloadPage = () => {
@@ -50,12 +51,12 @@ export const DownloadPage = () => {
             <div className="inline-block bg-gray-50 p-8 rounded-2xl shadow-lg">
               <p className="text-lg text-gray-700 mb-4 font-semibold">Get notified when we launch!</p>
               <p className="text-sm text-gray-600 mb-4">Contact us to stay updated on the app release.</p>
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className="bg-primary text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-all inline-block"
               >
                 Contact Us
-              </a>
+              </Link>
             </div>
           </div>
         </Container>
@@ -237,24 +238,24 @@ export const DownloadPage = () => {
               Be the first to know when the Dilkor app launches. Contact us to get notified!
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <a 
-                href="/contact"
+              <Link
+                to="/contact"
                 className="inline-flex items-center justify-center bg-white text-primary px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl"
               >
                 <svg className="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 Contact Us
-              </a>
-              <a 
-                href="/features"
+              </Link>
+              <Link
+                to="/features"
                 className="inline-flex items-center justify-center bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-primary transition-all"
               >
                 <svg className="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
                 Explore Features
-              </a>
+              </Link>
             </div>
           </div>
         </Container>

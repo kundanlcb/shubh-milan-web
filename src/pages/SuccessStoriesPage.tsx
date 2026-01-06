@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Container } from '../components/ui/Container';
 
 export const SuccessStoriesPage = () => {
@@ -182,12 +183,12 @@ export const SuccessStoriesPage = () => {
             <p className="text-xl text-primary mb-8">
               Join thousands of happy couples who found their perfect match on Dilkor
             </p>
-            <a 
-              href="/download"
+            <Link
+              to="/download"
               className="bg-white text-primary px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl inline-block"
             >
               App Coming Soon
-            </a>
+            </Link>
           </div>
         </Container>
       </section>

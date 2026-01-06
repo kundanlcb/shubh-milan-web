@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Container } from '../components/ui/Container';
 
 export const AboutPage = () => {
@@ -163,18 +164,18 @@ export const AboutPage = () => {
               Be part of a community that believes in meaningful connections and lasting relationships.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
-                href="/download"
+              <Link
+                to="/download"
                 className="bg-white text-primary px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl inline-block transform hover:scale-105"
               >
                 App Coming Soon
-              </a>
-              <a 
-                href="/contact"
+              </Link>
+              <Link
+                to="/contact"
                 className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-primary transition-all inline-block transform hover:scale-105"
               >
                 Contact Us
-              </a>
+              </Link>
             </div>
           </div>
         </Container>

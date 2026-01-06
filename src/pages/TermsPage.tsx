@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Container } from '../components/ui/Container';
 
 export const TermsPage = () => {
@@ -239,12 +240,12 @@ export const TermsPage = () => {
             <p className="text-lg text-gray-600 mb-8">
               Our legal team is here to help clarify any questions about our terms.
             </p>
-            <a 
-              href="/contact"
+            <Link
+              to="/contact"
               className="bg-primary text-white px-8 py-4 rounded-xl font-semibold hover:opacity-80 transition-all shadow-lg hover:shadow-xl inline-block"
             >
               Contact Us
-            </a>
+            </Link>
           </div>
         </Container>
       </section>

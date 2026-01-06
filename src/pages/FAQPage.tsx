@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Container } from '../components/ui/Container';
 
 export const FAQPage = () => {
@@ -177,13 +178,13 @@ export const FAQPage = () => {
               Can't find the answer you're looking for? Our support team is here to help.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
-                href="/contact"
+              <Link
+                to="/contact"
                 className="bg-primary text-white px-8 py-4 rounded-xl font-semibold hover:opacity-80 transition-all shadow-lg hover:shadow-xl inline-block"
               >
                 Contact Support
-              </a>
-              <a 
+              </Link>
+              <a
                 href="mailto:support@dilkor.com"
                 className="bg-white text-primary border-2 border-primary px-8 py-4 rounded-xl font-semibold hover:opacity-80 transition-all inline-block"
               >
