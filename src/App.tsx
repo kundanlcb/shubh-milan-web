@@ -13,7 +13,7 @@ import { ContactPage } from './pages/ContactPage';
 
 function App() {
   return (
-    <BrowserRouter basename="/dilkor-web">
+    <BrowserRouter basename="/shubh-milan-web">
       <Routes>
         {/* Public landing pages with MainLayout */}
         <Route path="/" element={<MainLayout><HomePage /></MainLayout>} />
